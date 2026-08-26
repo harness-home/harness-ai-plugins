@@ -30,8 +30,12 @@ const MAX_CANDIDATES = 1500
 const REQUEST_TIMEOUT_MS = 20_000
 const MANIFEST_CONCURRENCY = 8
 
-/** Packages that must never enter the catalog (our own, and known non-plugins). */
-const BLOCKLIST = new Set(['dshmarket'])
+/**
+ * Packages that must never enter the catalog: known non-plugins, and our own
+ * plugins that already ship inside the desktop shell — a catalog entry would
+ * let the market install a second copy of a row the shell mounts itself.
+ */
+const BLOCKLIST = new Set(['dshmarket', '@harness-ai/desktop-brand'])
 
 export interface SearchObject {
   package: {
