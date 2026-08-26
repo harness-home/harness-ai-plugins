@@ -1,0 +1,28 @@
+{
+  "name": "harness-ai-plugins",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Community plugin catalog for Harness AI: a scanner that reads the public npm registry and the snapshot it produces",
+  "packageManager": "pnpm@11.17.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "scan": "tsx scripts/scan.ts",
+    "validate": "tsx scripts/validate.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "verify": "pnpm typecheck && pnpm test && pnpm validate"
+  },
+  "dependencies": {
+    "@harness-ai/contracts": "^0.1.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^4.1.11"
+  }
+}

@@ -1,0 +1,94 @@
+# Rescan the registry and commit the snapshot when it changed.
+#
+# This is the only thing in the product that talks to the npm registry at scale:
+# one pass fetches a manifest per candidate, roughly 1500 requests. It used to
+# run inside the server, where a Cloudflare Worker's per-invocation subrequest
+# ceiling silently cut it off at about 3% of the catalog while still reporting
+# success. Here there is no such ceiling, and the server reads the result.
+#
+# Actions are pinned to commit SHAs, not tags: a tag can be moved to point at
+# different code. To update one, resolve the tag with
+#   gh api repos/<owner>/<repo>/commits/<tag> --jq '.sha'
+# and change the SHA together with the version in the trailing comment.
+name: Refresh catalog
+
+on:
+  schedule:
+    # Every six hours, offset off the hour so it does not pile onto the
+    # registry with everyone else's hourly jobs.
+    - cron: '40 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+concurrency:
+  group: refresh-catalog
+  cancel-in-progress: false
+
+permissions:
+  contents: write # commit the refreshed snapshot
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: pnpm/action-setup@0977fd99725f1db4007ccb2928dbb4e90d06cc86 # v6.0.10
+
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 22.x
+          cache: pnpm
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Typecheck and unit tests
+        run: |
+          pnpm typecheck
+          pnpm test
+
+      - name: Validate the committed snapshot
+        # Before overwriting it: a hand-edited file that no longer satisfies the
+        # contract should fail as its own change, not as part of a scan.
+        run: pnpm validate
+
+      - name: Scan the registry
+        if: github.event_name != 'push'
+        run: pnpm scan
+
+      - name: Validate the new snapshot
+        if: github.event_name != 'push'
+        run: pnpm validate
+
+      - name: Commit when the catalog moved
+        if: github.event_name != 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # `generatedAt` changes on every run by definition. Committing on that
+          # alone would produce a daily stream of empty diffs, so the comparison
+          # ignores it and looks at the catalog itself.
+          if git diff --quiet -- catalog.json; then
+            echo "catalog unchanged"
+            exit 0
+          fi
+          before="$(git show HEAD:catalog.json | jq -S 'del(.generatedAt)')"
+          after="$(jq -S 'del(.generatedAt)' catalog.json)"
+          if [ "${before}" = "${after}" ]; then
+            echo "only the generation stamp moved; leaving the snapshot alone"
+            git checkout -- catalog.json
+            exit 0
+          fi
+
+          listings="$(jq '.listings | length' catalog.json)"
+          installable="$(jq '[.listings[] | select(.installable)] | length' catalog.json)"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add catalog.json
+          git commit -m "chore: refresh catalog (${listings} listings, ${installable} installable)"
+          git push

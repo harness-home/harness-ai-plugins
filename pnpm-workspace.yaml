@@ -1,0 +1,12 @@
+# Single-package repo: this file carries the install policy only.
+
+# Dependencies allowed to run install-time build scripts; everything else is
+# blocked. esbuild is the only one, and it arrives through tsx.
+allowBuilds:
+  esbuild: true
+
+# pnpm holds fresh releases back so a compromised third-party publish cannot be
+# installed the minute it lands. That gate should not apply to a package this
+# workspace publishes itself.
+minimumReleaseAgeExclude:
+  - '@harness-ai/contracts@0.1.0'
