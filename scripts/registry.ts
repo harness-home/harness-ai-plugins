@@ -35,7 +35,13 @@ const MANIFEST_CONCURRENCY = 8
  * plugins that already ship inside the desktop shell — a catalog entry would
  * let the market install a second copy of a row the shell mounts itself.
  */
-const BLOCKLIST = new Set(['dshmarket', '@harness-ai/desktop-brand'])
+const BLOCKLIST = new Set([
+  'dshmarket',
+  // Renamed to @harness-ai/harness-brand; blocked until the npm unpublish
+  // window clears the old name from the registry.
+  '@harness-ai/desktop-brand',
+  '@harness-ai/harness-brand',
+])
 
 export interface SearchObject {
   package: {
