@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T21:57:04.157Z",
+  "generatedAt": "2026-10-05T06:13:56.249Z",
   "source": {
     "registry": "https://registry.npmjs.org",
     "keyword": "dsh-plugin"
@@ -65,6 +65,26 @@
       "downloads": 2220,
       "integrity": "sha512-p00Csq55QKlkFZhJJj08SJ3NVd//DIsprZBqaL2Q8vmoIPmS3wlPrEuwwHCXWKl65K0tIY3b/nn0pfU7lV3HUg==",
       "publishedAt": "2026-10-04T16:56:10.991Z",
+      "riskFlags": [
+        "no-provenance",
+        "new-package"
+      ]
+    },
+    {
+      "id": "npm:@240xu/dsh-session-search",
+      "name": "dsh-session-search",
+      "packageName": "@240xu/dsh-session-search",
+      "version": "0.1.6",
+      "description": "DSH web plugin: cross-session full-text search over all persisted session logs (user/assistant/system messages). Incremental mtime+size index cached at $DSH_HOME/cache/session-search (zero writes to ~/.dsh/sessions), standalone HTML panel page, fenced HTT",
+      "category": "tool",
+      "author": "240xu",
+      "homepage": "https://github.com/240xu/dsh-session-search#readme",
+      "source": "npm",
+      "installable": true,
+      "license": "MIT",
+      "downloads": 887,
+      "integrity": "sha512-nwgpeYvpYHPuLft9em4uUH9Ol0iSn4zPtEx4PtGADxpHsYU/tCvcHxJo2v6aaR1Jp83XkIpfzKtpYgn+fczLmQ==",
+      "publishedAt": "2026-10-05T02:24:56.439Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -1106,6 +1126,26 @@
       ]
     },
     {
+      "id": "npm:@canhta/dsh-autopilot",
+      "name": "dsh-autopilot",
+      "packageName": "@canhta/dsh-autopilot",
+      "version": "0.1.0-alpha.1",
+      "description": "Turn approved tracker tickets into review-ready pull requests with DeepSeek Harness.",
+      "category": "agent",
+      "author": "canhta",
+      "homepage": "https://github.com/canhta/dsh-autopilot#readme",
+      "source": "npm",
+      "installable": true,
+      "license": "MIT",
+      "downloads": 106,
+      "integrity": "sha512-K71LZEwIm5bFpYGgZJM9iuJlscTRmBucbGCf2Z/HaiZvGoa+dAIo71vlF38iB71HpRL5zKflr+XrWPGkgMTSuA==",
+      "publishedAt": "2026-09-12T04:39:27.426Z",
+      "riskFlags": [
+        "no-provenance",
+        "new-package"
+      ]
+    },
+    {
       "id": "npm:@canonmsg/deepseek-harness-plugin",
       "name": "deepseek-harness-plugin",
       "packageName": "@canonmsg/deepseek-harness-plugin",
@@ -1781,7 +1821,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 460,
+      "downloads": 250,
       "integrity": "sha512-/2JlAHKVOWSZLBNINdK4WIExns+titgfq043yakZGz9zew2CYBUu66mPna6QIxCQtj7r4qMM40oEjNKmuixs7w==",
       "publishedAt": "2026-09-28T03:47:31.173Z",
       "riskFlags": [
@@ -1793,7 +1833,7 @@
       "id": "npm:@dsh-bio/dsh-bio-gem",
       "name": "dsh-bio-gem",
       "packageName": "@dsh-bio/dsh-bio-gem",
-      "version": "0.1.17",
+      "version": "0.1.18",
       "description": "基因组尺度代谢模型（GEM）构建插件：输入细菌全基因组（蛋白FASTA，支持多质粒/多染色体），自动构建+验证+补洞+出报告（SBML + 模型卡），供 dsh-bio-genie 消费工具加载使用 | Genome-scale metabolic model builder for dsh",
       "category": "model",
       "author": "moonbowterfly",
@@ -1802,8 +1842,8 @@
       "installable": true,
       "license": "MIT",
       "downloads": 511,
-      "integrity": "sha512-T09BuXNH68MQhWduJIzFXxpr0ZvMXzy0d4/D9EMv5H9kdbQVG7e40yiRAafXr2pefzq4WZ74zgGc/WgpMnToHA==",
-      "publishedAt": "2026-10-04T21:25:40.666Z",
+      "integrity": "sha512-iBM3BytP0EqWepMK0VPbvUMHHmDxMta0AOh+xMJDt45NBN5P0u4Y07dM/R2PHMD7l12lFG7aoxe6FuCaNjPH+Q==",
+      "publishedAt": "2026-10-04T22:08:07.131Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -1813,7 +1853,7 @@
       "id": "npm:@dsh-bio/dsh-bio-genie",
       "name": "dsh-bio-genie",
       "packageName": "@dsh-bio/dsh-bio-genie",
-      "version": "0.6.42",
+      "version": "0.6.43",
       "description": "生物信息学「许愿式分析」插件：Python 执行器（bio_python：Biopython 全功能 + 出版级绘图）+ 57 个高频语义化工具（差异表达/GSEA、代谢建模/FBA、合成生物学设计、CRISPR、ML、文献检索、Addgene 质粒库、UniProt、单细胞 QC 等）+ 50 个 skill（1 主 skill + 17 领域配方 + 19 协议 + 5 研究方法 + 8 agent 指南）+ 零依赖自举 Python 环境（uv+venv 自动下载到插件私有目录）。用户下载安装即可许",
       "category": "agent",
       "author": "moonbowterfly",
@@ -1822,8 +1862,8 @@
       "installable": false,
       "license": "MIT",
       "downloads": 1001,
-      "integrity": "sha512-wVbsQydwEcIajPPfTJlti+cLoXW9582cVdSnwx7JVmy2UBQjDYNBYMWN/fkqZO4LxgZhGZBGTNNO/jBIBr/Ziw==",
-      "publishedAt": "2026-10-04T21:25:36.635Z",
+      "integrity": "sha512-h+wZjPh4QENPnJ72Pm6GAM9d1ALR3jG301NYvORVm+yRSn3gP7riu9u3QDnkjErE942ckHaNAVn4ZvuRvMdQ9g==",
+      "publishedAt": "2026-10-04T22:07:27.683Z",
       "riskFlags": [
         "install-scripts",
         "no-provenance",
@@ -2788,7 +2828,7 @@
       "id": "npm:@eddyskywalker/dsh-chatgpt-subscription",
       "name": "dsh-chatgpt-subscription",
       "packageName": "@eddyskywalker/dsh-chatgpt-subscription",
-      "version": "0.11.7",
+      "version": "0.12.1",
       "description": "DSH provider plugin for Codex access through a ChatGPT subscription.",
       "category": "model",
       "author": "eddyskywalker",
@@ -2797,8 +2837,8 @@
       "installable": true,
       "license": "MIT",
       "downloads": 6588,
-      "integrity": "sha512-9aCDVPa87tcriQmPeFmllPg0523HW/LhTzdiJBBs8L+Mt3uMndBQh13VD14qE5UHBhqwbDfO4a56loqYrjhgRQ==",
-      "publishedAt": "2026-10-04T15:20:09.306Z",
+      "integrity": "sha512-6ATkvCt83KWxJa/ng8xJQwwzwnYCR+GoySLW6hxa0d4Kkon2MzriK0t0K5JR5EAsbpMBeZK6LU4DUxAw6TfhjQ==",
+      "publishedAt": "2026-10-04T22:49:27.219Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -2836,7 +2876,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 556,
+      "downloads": 197,
       "integrity": "sha512-MtStXTyP/OoTrgTo623aeDSFu4UbR5ovx2QzIoEYW6epIRmc0WikCoH7f5EtJBAR9KjdGL86OeJdNJ7BKl4zaQ==",
       "publishedAt": "2026-09-15T05:00:09.410Z",
       "riskFlags": [
@@ -3182,7 +3222,7 @@
       "id": "npm:@goodandready/dsh-clinebot",
       "name": "dsh-clinebot",
       "packageName": "@goodandready/dsh-clinebot",
-      "version": "0.5.16",
+      "version": "0.5.17",
       "description": "DeepSeek Harness companion for ClineBot / ClinePass: dynamic subscription models sync, quota exhaustion warnings, session metrics, dedicated settings page, live usage limits, and /cline slash-command.",
       "category": "model",
       "author": "goodandready",
@@ -3190,9 +3230,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 3616,
-      "integrity": "sha512-dAsHEu3KFyuP1drUV5wcnWChTAP6gk46ymNY8ySYG/oQZkQ/SJp8pIrsQwOjHy/6NQJYXirr9UpSPDxIaNUvpg==",
-      "publishedAt": "2026-10-04T11:14:24.306Z",
+      "downloads": 3629,
+      "integrity": "sha512-S3MqU1cDc30peafChTb6kmc8bTbQ/3wTqzXR92ChElz1EqhSJig3G1GsCMnCUkFK6FkpqdyMeG2RaZiVcIs0XQ==",
+      "publishedAt": "2026-10-04T22:11:27.876Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -3402,7 +3442,7 @@
       "id": "npm:@goodandready/dsh-key-rotation",
       "name": "dsh-key-rotation",
       "packageName": "@goodandready/dsh-key-rotation",
-      "version": "0.8.49",
+      "version": "0.8.50",
       "description": "Per-provider API key rotation for DeepSeek Harness: a key pool per provider, auto-created clone routes, and switching to the next key on quota/rate-limit errors. Includes a Settings section (Key Rotation) to edit the key pools, cooldown and switch codes.",
       "category": "model",
       "author": "goodandready",
@@ -3410,9 +3450,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 4442,
-      "integrity": "sha512-FT9mWaxv9OAS1v4dUfYRNmKDRQqtThl00Hu5QPHlf4UdOWrfRNqEv5dfe2PtZO4HVGWaYFAvDCRWji6aE+u+nA==",
-      "publishedAt": "2026-10-03T21:05:30.932Z",
+      "downloads": 4951,
+      "integrity": "sha512-QrYc7RHk4KwZ5wW3G4RDrtbBpecBgmlvjdm29ktv6fyUy2qTiL5PnedwS2YFJ6B2kmVK5jCejUSmAE/i4aVDiA==",
+      "publishedAt": "2026-10-04T22:22:28.288Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -3582,7 +3622,7 @@
       "id": "npm:@goodandready/dsh-russian-lang",
       "name": "dsh-russian-lang",
       "packageName": "@goodandready/dsh-russian-lang",
-      "version": "0.3.35",
+      "version": "0.3.36",
       "description": "Russian localization for DeepSeek Harness (DSH v0.2.1-alpha.1+) web UI: adds Русский as native language option. 100.0% coverage across 8,697 UI keys (103 namespaces: Core 2,512 + Plugins 6,185). Features full DSH v0.2.1-alpha.1 core support, Session Inspe",
       "category": "ui",
       "author": "goodandready",
@@ -3591,8 +3631,8 @@
       "installable": true,
       "license": "MIT",
       "downloads": 5326,
-      "integrity": "sha512-w5YRH0lfGyue9Mn+19nVN+mlPspBeaaFoScWYJWe0lq/A5GVVjXUWoCWH3IwqFFaf7nhosz70ep+0Gx9iRtbqA==",
-      "publishedAt": "2026-10-04T13:01:46.642Z",
+      "integrity": "sha512-MW9WnUCUxb+sFSf39jtkqsuVPjwm97O+bbsNUnnaKqss4kDnP3OfqiaOBhoWJkGwj4Or1K/rugsHuIXl9elo1Q==",
+      "publishedAt": "2026-10-04T21:58:13.178Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -3642,7 +3682,7 @@
       "id": "npm:@goodandready/dsh-subscriptions",
       "name": "dsh-subscriptions",
       "packageName": "@goodandready/dsh-subscriptions",
-      "version": "0.6.54",
+      "version": "0.6.55",
       "description": "Use ChatGPT Codex, Claude, Grok, Antigravity, Kimi, GLM, Cursor, Kiro, Copilot, Qwen, ERNIE, Spark, JetBrains, Perplexity, Replit, and Cody subscriptions as DeepSeek Harness LLM providers via OAuth.",
       "category": "model",
       "author": "goodandready",
@@ -3651,8 +3691,8 @@
       "installable": true,
       "license": "MIT",
       "downloads": 5391,
-      "integrity": "sha512-m1PDcIfzybVek4nG4iU2wIIWMMX9Lv83M8EYKoIOdpwriFN4Gx5mWgntY8Wr+tl/m0yLKYSG7zv1KKEATDPggw==",
-      "publishedAt": "2026-10-04T20:49:18.246Z",
+      "integrity": "sha512-kODWJUVFdFUmk6GT1mKjP9sEJs8zhF8zaWkxO3vcxuk2eU4jOVbEmPmhhuXqNASQIdGvkokArPwGNyZpFivEiw==",
+      "publishedAt": "2026-10-04T22:17:36.424Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -3742,7 +3782,7 @@
       "id": "npm:@goodandready/dsh-voice",
       "name": "dsh-voice",
       "packageName": "@goodandready/dsh-voice",
-      "version": "0.9.27",
+      "version": "0.9.28",
       "description": "Voice input for DeepSeek Harness: dictation chunked by pauses and voice messages, each with its own provider fallback chain (Deepgram, Groq, HuggingFace, local whisper.cpp, plus any OpenAI-compatible API of your own).",
       "category": "model",
       "author": "goodandready",
@@ -3751,8 +3791,8 @@
       "installable": true,
       "license": "MIT",
       "downloads": 4279,
-      "integrity": "sha512-YxLM7kCQWGohq5KpRZvDn2IW0jbn3TjptORBZVv32Cab5zrIP1qjuOP5H3MDOAPw1oXdmtmuBfFqYUstNF8flA==",
-      "publishedAt": "2026-10-04T21:03:04.484Z",
+      "integrity": "sha512-lm+SL4YdD82D7Azub26j7R1CKPOGqPqPr5xIbeNJAbjGM10yxeBwhXUrTJj52UJq7RVx97YJJNyat8V2bojuCg==",
+      "publishedAt": "2026-10-04T22:02:06.766Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -4371,40 +4411,40 @@
       ]
     },
     {
-      "id": "npm:@hy-sde-org/dsh-code-runtime-kernels",
-      "name": "dsh-code-runtime-kernels",
-      "packageName": "@hy-sde-org/dsh-code-runtime-kernels",
+      "id": "npm:@hy-sde-org/dsh-browser",
+      "name": "dsh-browser",
+      "packageName": "@hy-sde-org/dsh-browser",
       "version": "0.2.0-rc.2.1",
-      "description": "The run_kernel_code tool for DeepSeek Harness: persistent Python and JavaScript kernels (a long-lived python3/node subprocess per session, sharing a core host driver) — a standalone plugin with no upstream harness changes required.",
+      "description": "Agentic browser plumbing for DeepSeek Harness: the host ctx.browser service (launch with stealth, CDP-attach, and a local relay + companion Chrome extension driving the user's own tabs) backing the browser tool in @hy-sde-org/dsh-tool-browser — a standalo",
       "category": "agent",
       "author": "hyang028",
-      "homepage": "https://github.com/hy-sde/dsh-plugins",
+      "homepage": "https://github.com/hy-sde/dsh-browser#readme",
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 353,
-      "integrity": "sha512-Em7FYWrWZO8WXnvYdYhIhbG2KHvKO9hZ1rvbBI0fwWv8obg3u+py5eoIirYHQ47SOjXlxd5FdCu41pGF4JEPHw==",
-      "publishedAt": "2026-10-03T05:51:19.504Z",
+      "downloads": 384,
+      "integrity": "sha512-05Sqqf971dpsDMRWNlrQ4eM4c5+d+3hDko9grMwOfSxM+o+Tjce8PFu5P82SmaRqksEt4qhznOAWHO0alcCUDQ==",
+      "publishedAt": "2026-10-05T02:44:03.357Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
       ]
     },
     {
-      "id": "npm:@hy-sde-org/dsh-dap",
-      "name": "dsh-dap",
-      "packageName": "@hy-sde-org/dsh-dap",
-      "version": "0.2.0-rc.2",
-      "description": "Debug Adapter Protocol (DAP) capability seam for the DeepSeek Harness — adapter resolution, and a session manager that launches/attaches, sets breakpoints, steps, lists threads and stack frames, reads scopes and variables, and evaluates expressions throug",
+      "id": "npm:@hy-sde-org/dsh-code-runtime-kernels",
+      "name": "dsh-code-runtime-kernels",
+      "packageName": "@hy-sde-org/dsh-code-runtime-kernels",
+      "version": "0.2.0-rc.2.2",
+      "description": "The run_kernel_code tool for DeepSeek Harness: persistent Python and JavaScript kernels (a long-lived python3/node subprocess per session, sharing a core host driver) — a standalone plugin with no upstream harness changes required.",
       "category": "agent",
       "author": "hyang028",
-      "homepage": "https://github.com/hy-sde/dsh-tool-debug#readme",
+      "homepage": "https://github.com/hy-sde/dsh-code-runtime-kernels#readme",
       "source": "npm",
-      "installable": false,
+      "installable": true,
       "license": "MIT",
-      "downloads": 202,
-      "integrity": "sha512-OoMWBe6CFq+OlWPItZs2QTW6G3xVW54+Vu2hMkBP4frI6te64elU/sT7NDHYQjce7OtkIcOngcwa5FjTyCIEBA==",
-      "publishedAt": "2026-10-03T08:02:17.699Z",
+      "downloads": 522,
+      "integrity": "sha512-iI+88pYv7tCM7FMVlObxX/MvIMVzfZYFjCR3VT4fAEO9LwptKsh64LK3r2N9e9gK2FDaZulKT5h1AoeRtekIwg==",
+      "publishedAt": "2026-10-05T02:44:10.747Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -4514,7 +4554,7 @@
       "id": "npm:@hy-sde-org/dsh-tool-edit",
       "name": "dsh-tool-edit",
       "packageName": "@hy-sde-org/dsh-tool-edit",
-      "version": "0.2.0-rc.2.1",
+      "version": "0.2.0-rc.2.2",
       "description": "The rich `edit` tool for DeepSeek Harness (replace / patch / apply_patch / hashline modes) with embedded format-on-write and diagnostics — a standalone plugin with no upstream harness changes required.",
       "category": "agent",
       "author": "hyang028",
@@ -4523,8 +4563,8 @@
       "installable": true,
       "license": "MIT",
       "downloads": 393,
-      "integrity": "sha512-0wCGHRZs4Cvnms4vU9BdQSO+gfpYUMjJTPvQeodwCDKEbXsttJoob1GXUxvfvT1DRbbfRu5mi4jNmDj6kkCmdA==",
-      "publishedAt": "2026-10-04T17:16:04.382Z",
+      "integrity": "sha512-Yt78hiDLh/aOyGR4/TjgyCIvjbsoPcZYdoeraoDoZ35stnBS5WYAbxY+HbDvUVNdU+4NAAj+HRuXhbqkFJSLeg==",
+      "publishedAt": "2026-10-05T02:44:17.352Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -4621,7 +4661,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 28322,
+      "downloads": 279,
       "integrity": "sha512-Ey3PaDmWK4zzu57SDf99one2J0xjVi5q6N/HlZswQbQlbPtVOqq+cCCtFNDFFnYmhTGPf4zqnr5cYhkk4GyfQQ==",
       "publishedAt": "2026-09-28T03:55:46.428Z",
       "riskFlags": [
@@ -4967,7 +5007,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 885,
+      "downloads": 508,
       "integrity": "sha512-vF3J5MkZPtgpRMHvSRZM+Ip7u9n5JHZnuff7pFjkbl6J9G4pcRuBpNUTmkeVeb2svJHWYpyKhjXva25BLPrsSQ==",
       "publishedAt": "2026-09-28T04:17:52.632Z",
       "riskFlags": [
@@ -5098,7 +5138,7 @@
       "id": "npm:@kenz1117/dsh-ui-usage-billing",
       "name": "dsh-ui-usage-billing",
       "packageName": "@kenz1117/dsh-ui-usage-billing",
-      "version": "1.4.19",
+      "version": "1.4.20",
       "description": "Usage billing dashboard for DeepSeek Harness: sidebar cost metrics plus a full dashboard modal, priced from a current multi-provider catalog with real usage aggregated from session logs.",
       "category": "ui",
       "author": "kenz1117",
@@ -5107,8 +5147,8 @@
       "installable": true,
       "license": "MIT",
       "downloads": 4668,
-      "integrity": "sha512-aETIufHX2GuB2Oy5s3+W2MpDZfXAPfB9toaPriKYGe2apwHHdUOVGF3dBSHiTcx9ycRDoXKkvie9G8n6b27DyA==",
-      "publishedAt": "2026-10-04T14:10:38.014Z",
+      "integrity": "sha512-gca8R8Yvm2ifEzPibY9s6acV7rbaV/3qdU+6xFhOBKGnMo1OXe0i+az0HCHemM4OLIv1I261LyUGZQcML77q0A==",
+      "publishedAt": "2026-10-05T01:50:18.464Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -5291,25 +5331,6 @@
       "riskFlags": [
         "no-provenance",
         "low-adoption",
-        "new-package"
-      ]
-    },
-    {
-      "id": "npm:@klarkxy/dsh-ai-services",
-      "name": "dsh-ai-services",
-      "packageName": "@klarkxy/dsh-ai-services",
-      "version": "0.1.4",
-      "description": "AI Services: shared model routing, bounded auxiliary calls, and usage receipts for other plugins.",
-      "category": "model",
-      "author": "klarkxy",
-      "homepage": "https://klarkxy.github.io/dsh-plugins/plugins/ai-services/",
-      "source": "npm",
-      "installable": true,
-      "license": "SEE LICENSE IN LICENSE",
-      "downloads": 890,
-      "integrity": "sha512-IxuQ6aWjBN2KOBpHABqsWrSiqxFNThGj22r+Jf/qicxVMz/+nPkkdZyWfSx4c51pxa/6a+49uIagnCmglXQ8mg==",
-      "publishedAt": "2026-09-28T15:56:59.859Z",
-      "riskFlags": [
         "new-package"
       ]
     },
@@ -5917,7 +5938,7 @@
       "id": "npm:@liuhange/dsh-gov-data-inspector",
       "name": "dsh-gov-data-inspector",
       "packageName": "@liuhange/dsh-gov-data-inspector",
-      "version": "3.4.17",
+      "version": "3.4.21",
       "description": "Government data inspection plugin per GB/T 47949-2026 & GB/T 47950-2026: service guide quality check, public data asset classification, semantic & logic detection, compliance audit, data governance for digital government 一网通办",
       "category": "other",
       "author": "liuhange",
@@ -5926,8 +5947,8 @@
       "installable": true,
       "license": "MIT",
       "downloads": 2801,
-      "integrity": "sha512-ICbsIeM5en/U5F+425xpFzu8/lSqNWNlK1MCaGLWo6FSmOvutdzG57lLwfuIApj7MZ33YDYyl9yxXr9nJ1cBuA==",
-      "publishedAt": "2026-10-04T15:45:02.287Z",
+      "integrity": "sha512-HCx6b+IZ9J6hWJHj8virv8iTLIZSPzA8QQhZropRqq4DKGYT521+z2SoTwbT26mgYn/f+N0EZxDi+fpf87MbSw==",
+      "publishedAt": "2026-10-05T03:49:26.664Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -6040,7 +6061,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 559,
+      "downloads": 674,
       "integrity": "sha512-W2ONmjD3V+HegG8J3oyIGSOtolCU2PsV3Cb+UDDdgVZk9ZeKasYAABkiItk8hzsvjGOWw8Su0r/kYY3NgQkfUQ==",
       "publishedAt": "2026-09-28T02:50:20.810Z",
       "riskFlags": [
@@ -6522,26 +6543,6 @@
       ]
     },
     {
-      "id": "npm:@mastergo/dsh-canvas",
-      "name": "dsh-canvas",
-      "packageName": "@mastergo/dsh-canvas",
-      "version": "0.1.6",
-      "description": "MasterGo Canvas MCP bundle with a managed local sidecar for DeepSeek Harness",
-      "category": "agent",
-      "author": "zhourui315609371",
-      "homepage": "https://github.com/mastergo-design/dsh-canvas#readme",
-      "source": "npm",
-      "installable": true,
-      "license": "UNLICENSED",
-      "downloads": 43,
-      "integrity": "sha512-jyJeACM8UZqUvi+TC2yzZuGZP/0NFkLhOQmEPJrc2Kte30Unm0vMWZcZOFxcWcxVkyXf8DtnvCNiATJZ7pnbNw==",
-      "publishedAt": "2026-08-31T04:15:11.854Z",
-      "riskFlags": [
-        "no-provenance",
-        "low-adoption"
-      ]
-    },
-    {
       "id": "npm:@max-null/dsh-chat-rail",
       "name": "dsh-chat-rail",
       "packageName": "@max-null/dsh-chat-rail",
@@ -6702,25 +6703,6 @@
       ]
     },
     {
-      "id": "npm:@mem0/deepseek-plugin",
-      "name": "deepseek-plugin",
-      "packageName": "@mem0/deepseek-plugin",
-      "version": "0.3.2",
-      "description": "Mem0 long-term memory as a native DeepSeek Harness (Cordis) plugin.",
-      "category": "agent",
-      "author": "GitHub Actions",
-      "homepage": "https://github.com/mem0ai/mem0#readme",
-      "source": "npm",
-      "installable": false,
-      "license": "Apache-2.0",
-      "downloads": 261,
-      "integrity": "sha512-QLwInF37PKTihiFml7kXDO2P3w577FJ2Wrme27zLTCMLXaSeHsTnyNwAXi71AKeKfduiX/Zsyj+k31Vcz6LZWg==",
-      "publishedAt": "2026-09-23T19:15:31.875Z",
-      "riskFlags": [
-        "new-package"
-      ]
-    },
-    {
       "id": "npm:@memef1f1y/dsh-plugin-adapter",
       "name": "adapter",
       "packageName": "@memef1f1y/dsh-plugin-adapter",
@@ -6732,7 +6714,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 574,
+      "downloads": 115,
       "integrity": "sha512-an24MoWfTpLH7gq6BpZDkHTwQgqB7zxPY1ShDUEtlXSE6UJqNXcRrqGuIrWpnB/R85+UQmK6+t10dc40rEzRHA==",
       "publishedAt": "2026-09-20T23:38:25.790Z",
       "riskFlags": [
@@ -7270,7 +7252,7 @@
       "source": "npm",
       "installable": false,
       "license": "PolyForm-Noncommercial-1.0.0",
-      "downloads": 3448,
+      "downloads": 1421,
       "integrity": "sha512-0kb2HYJ1+jVhve8N2Yh3spwasHzC104KR27X9N3QAFj31wJSdRIp8/boXBF3x2kg8Eut9UoA2C6j4pjdp3fJ4g==",
       "publishedAt": "2026-09-28T03:00:06.204Z",
       "riskFlags": [
@@ -7328,7 +7310,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 304,
+      "downloads": 297,
       "integrity": "sha512-pL0PD1og+Hs5OM69ygE5laMILRxSy/t59hqLUmIzn4/kGlDpOzRv0ml54zBeGRUBX8EBgu9x+Vvw0lsRI0NySQ==",
       "publishedAt": "2026-08-16T22:18:05.859Z",
       "riskFlags": []
@@ -7499,7 +7481,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 269,
+      "downloads": 947,
       "integrity": "sha512-t9/8dFujf51Q2ZED8zqOSenNNDlmCoeGJAjpHuiIvrCe3qjkhH1mpVV6ZSjae03xxvExZ5a4wEAuFIA6BPcuyA==",
       "publishedAt": "2026-09-28T02:41:22.537Z",
       "riskFlags": [
@@ -7519,7 +7501,7 @@
       "source": "npm",
       "installable": true,
       "license": "Apache-2.0",
-      "downloads": 655,
+      "downloads": 960,
       "integrity": "sha512-kgLVLya7chMzCdsDYgNy1jig2sQL9nNXmP3aI5L/Y+aZiyhXueSJ5qjX0/D9KkoFbuxPW370W8jhSHs6Bh81HA==",
       "publishedAt": "2026-10-04T08:57:01.999Z",
       "riskFlags": [
@@ -7942,7 +7924,7 @@
       "id": "npm:@sagmans/dsh-tui",
       "name": "dsh-tui",
       "packageName": "@sagmans/dsh-tui",
-      "version": "0.13.0",
+      "version": "0.14.0",
       "description": "Terminal (CLI TUI) surface for DeepSeek Harness: interactive dsh in a terminal, no browser required",
       "category": "other",
       "author": "GitHub Actions",
@@ -7950,9 +7932,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 1161,
-      "integrity": "sha512-cwq8nZkNXwddNM9mWMNZFZesrTyqV6jlv5o/VxYEKo0WV5QHpWiQ3kTsdopTyMdypHQG1TBvLSfJi4m9jj11dg==",
-      "publishedAt": "2026-10-01T19:03:10.972Z",
+      "downloads": 1289,
+      "integrity": "sha512-xNDJSpME5tKpaLweGfMROkUl8MxqIu0heNQIuLX3YhWP0Xl/jbFeQj0/TJRLb06UaNDNZlVs6SMFHQ89iF/ThQ==",
+      "publishedAt": "2026-10-05T05:09:13.858Z",
       "riskFlags": [
         "new-package"
       ]
@@ -8362,7 +8344,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 241,
+      "downloads": 625,
       "integrity": "sha512-wyG9euCnHFQjB8rbvCwq/gapnUcygwh36zXT+0pE5iF+e+8/t8+6DQtAVJ1XgwzPL4Egd7Q0zTf9XncoIiezXQ==",
       "publishedAt": "2026-09-28T03:14:35.465Z",
       "riskFlags": [
@@ -8606,6 +8588,25 @@
       ]
     },
     {
+      "id": "npm:@viztor/dsh-opencode-patch",
+      "name": "dsh-opencode-patch",
+      "packageName": "@viztor/dsh-opencode-patch",
+      "version": "0.13.0",
+      "description": "OpenCode on DeepSeek Harness — session affinity, Zen/Go gateway origin headers, free-tier tool fallback, and live Go quota display.",
+      "category": "model",
+      "author": "viztor",
+      "homepage": "https://github.com/viztor/dsh-opencode-patch",
+      "source": "npm",
+      "installable": true,
+      "license": "MIT",
+      "downloads": 931,
+      "integrity": "sha512-Vx6zAh639O3FOJwf3XkGvTnCEODc9gQy/GVhBaxU+wPYaushUhtK40Em85dg8ZADarWzoRiLNSp17uaoc2Qitg==",
+      "publishedAt": "2026-10-05T02:20:50.472Z",
+      "riskFlags": [
+        "new-package"
+      ]
+    },
+    {
       "id": "npm:@viztor/dsh-tinyfish",
       "name": "dsh-tinyfish",
       "packageName": "@viztor/dsh-tinyfish",
@@ -8773,7 +8774,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 993,
+      "downloads": 611,
       "integrity": "sha512-M/p0AxdNXZ4eseKctBzLNeDJac/N5yPaNaZpqRDyiyyJQfTn3X25sKGmAdkOayjZjHdzhsrh+R7tC7ztKgjtxA==",
       "publishedAt": "2026-09-27T23:36:21.616Z",
       "riskFlags": [
@@ -8830,7 +8831,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 957,
+      "downloads": 790,
       "integrity": "sha512-xFJ8utRK79dUrhLHIgIv1Azzo95lNSFxFkmev8nXNY8Zbe6pY/+r+/VRiySVC2OO/6ySEr+w9kbbWUWwEyCV+Q==",
       "publishedAt": "2026-09-28T03:51:12.573Z",
       "riskFlags": [
@@ -8990,6 +8991,25 @@
       ]
     },
     {
+      "id": "npm:@weibaohui/dsh-webdav-server",
+      "name": "dsh-webdav-server",
+      "packageName": "@weibaohui/dsh-webdav-server",
+      "version": "0.1.4",
+      "description": "dsh 插件 · WebDAV 服务器：把一个共享目录变成 Windows/macOS/Linux 都能挂载成本地磁盘的 WebDAV 服务，令牌认证或复用 user-management 账号、可选只读、目录/端口/令牌全可配，设置页自带三平台挂载指南。",
+      "category": "tool",
+      "author": "GitHub Actions",
+      "homepage": "https://github.com/weibaohui/dsh-webdav-server#readme",
+      "source": "npm",
+      "installable": true,
+      "license": "MIT",
+      "downloads": 533,
+      "integrity": "sha512-18KUc2n8/DUFjbHkSoohu5EmCEUaneafId+3jTreHlJSNcbP4CfHdtPYz7B7pBZ2snbbQv2Y67cqg/967IXwUw==",
+      "publishedAt": "2026-09-27T23:05:04.187Z",
+      "riskFlags": [
+        "new-package"
+      ]
+    },
+    {
       "id": "npm:@weibaohui/experts-management",
       "name": "experts-management",
       "packageName": "@weibaohui/experts-management",
@@ -9020,7 +9040,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 1006,
+      "downloads": 722,
       "integrity": "sha512-bCPGZlYogVg1XZ4TuBdd95Z16WMXAvfJzmi61t45OqrWrTgZeIojRd1nXIBcf9BNcnSOm9ZtoKxuld0Vlsj09A==",
       "publishedAt": "2026-09-27T23:05:55.445Z",
       "riskFlags": [
@@ -9162,26 +9182,6 @@
       "publishedAt": "2026-09-03T12:19:59.200Z",
       "riskFlags": [
         "no-provenance"
-      ]
-    },
-    {
-      "id": "npm:@wenqi_bian/dsh-web-search-anysearch",
-      "name": "dsh-web-search-anysearch",
-      "packageName": "@wenqi_bian/dsh-web-search-anysearch",
-      "version": "0.2.0-rc.2",
-      "description": "AnySearch-backed WebSearchProvider for DeepSeek Harness (dsh): register AnySearch's /v1/search, switch explicitly between the official DeepSeek search endpoint and AnySearch from the Plugins page configuration, compatible with dsh v0.1.5-alpha.1 and later",
-      "category": "model",
-      "author": "wenqi_bian",
-      "homepage": "https://github.com/VinciBeans/dsh-web-search-anysearch#readme",
-      "source": "npm",
-      "installable": true,
-      "license": "MIT",
-      "downloads": 205,
-      "integrity": "sha512-Q7Lq9tmC0rhUQv9OUXEq9K6FlERjJRcPmags6mJ0RYHH3xM3gazm6bFTAIN5ujRMznLROWN4MgusrIA9D39ZwA==",
-      "publishedAt": "2026-09-30T14:50:21.920Z",
-      "riskFlags": [
-        "no-provenance",
-        "new-package"
       ]
     },
     {
@@ -9742,7 +9742,7 @@
       "id": "npm:@yadsh/dsh-documents",
       "name": "dsh-documents",
       "packageName": "@yadsh/dsh-documents",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "description": "Managed document pipeline for the DeepSeek Harness: Markdown to DOCX/PDF, DOCX/PDF back to Markdown, and online sources as agent tools",
       "category": "agent",
       "author": "GitHub Actions",
@@ -9751,8 +9751,8 @@
       "installable": true,
       "license": "MIT",
       "downloads": 62,
-      "integrity": "sha512-PR0lZ5rLt32RFBBqDOGuXWzjs+zpm40bEeo0lM7jwLYVAWPY9k/cogjxIKokLPtZVGfk4UxnDn0mjaVZkLAFNw==",
-      "publishedAt": "2026-10-04T17:34:15.139Z",
+      "integrity": "sha512-oMFYVvMaT0913gdbcvRZawcVp7xHVcEtr7bPR8mgG4muVzRQ9Iz+Rz87M5GJqwbgFQd8p0pElf7tx4A91kU2VA==",
+      "publishedAt": "2026-10-04T22:34:30.826Z",
       "riskFlags": [
         "new-package"
       ]
@@ -9995,7 +9995,7 @@
       "id": "npm:@yadsh/dsh-qa-surface",
       "name": "dsh-qa-surface",
       "packageName": "@yadsh/dsh-qa-surface",
-      "version": "0.14.0",
+      "version": "0.15.0",
       "description": "A focused end-user QA surface backed by native DeepSeek Harness sessions",
       "category": "ui",
       "author": "GitHub Actions",
@@ -10004,8 +10004,8 @@
       "installable": true,
       "license": "MIT",
       "downloads": 102,
-      "integrity": "sha512-dxHkpt8ZqxDMjr4KedxhF8+Nlltlck5WzSjgIJb5XnBayDkwG0nnqLiUKzPDEs/8HOAxFAs90p+NXygEaR0dXw==",
-      "publishedAt": "2026-10-04T17:38:35.430Z",
+      "integrity": "sha512-xqjuFEC5qQyPnfFgFSHxojoHh0EdyPfb0vhzWD8ujrFhDo3s54yqQi+1+7o4ZOCQuCQ230+WTg6h2tpBU4oP3A==",
+      "publishedAt": "2026-10-04T22:36:51.874Z",
       "riskFlags": [
         "new-package"
       ]
@@ -10219,7 +10219,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 333,
+      "downloads": 399,
       "integrity": "sha512-dhx14KDTe0NX+HCm+j90Ve09jbkKvB0EA9OSuKD/PSmmIbY1MKkqepN7zZDUNlgrjuwtE3sZgFFTcVFotN4FwA==",
       "publishedAt": "2026-08-24T01:10:10.892Z",
       "riskFlags": []
@@ -10265,7 +10265,7 @@
       "id": "npm:@zaofan/dsh-qqbot",
       "name": "dsh-qqbot",
       "packageName": "@zaofan/dsh-qqbot",
-      "version": "1.6.6",
+      "version": "1.6.7",
       "description": "QQ Bot IM channel plugin for deepseek-harness (dsh)",
       "category": "agent",
       "author": "zaofan",
@@ -10273,9 +10273,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 2675,
-      "integrity": "sha512-0yhwXIXeTJ8Y//w7jiHpBok7+QEUMaMalfa2HMyKw4kQ4ttMrzqn6ftUPx6ZBl2lV8ZWUBtHWoP4flHD53Yhfg==",
-      "publishedAt": "2026-10-03T23:00:12.277Z",
+      "downloads": 3966,
+      "integrity": "sha512-lleFGb+k7LE3C8ClyjtN9GIYQQn9AvRVP3897LeEQTO1xKK4REgW/9yViXwt0SfUuHuN/J74xbgG0U5Y7yeOmg==",
+      "publishedAt": "2026-10-04T22:21:19.388Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -10408,7 +10408,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 606,
+      "downloads": 775,
       "integrity": "sha512-A5xzToMfwfQoHsxffIuE+S2a3d4FxjjFc9cK9r+dccJhN6B11XmOL8jn15UOb7JvYj0AF3u3UYuW2DkiuTwZtA==",
       "publishedAt": "2026-09-28T04:19:37.460Z",
       "riskFlags": [
@@ -11304,7 +11304,7 @@
       "id": "npm:dsh-agent-board",
       "name": "dsh-agent-board",
       "packageName": "dsh-agent-board",
-      "version": "1.7.0",
+      "version": "1.7.1",
       "description": "DeepSeek Harness 智能看板：任务卡片 + 一次性 Worker/Verifier 派发 + 依赖调度 + 管线分档 + Team 模式（歧义上报主窗口裁决）",
       "category": "agent",
       "author": "pawnsir",
@@ -11312,9 +11312,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 1101,
-      "integrity": "sha512-dkk8/ZyMv22KeKygLV0eahAQBCi+CFau6QXJqqjccN/aAmSrNiqaCj9zUuS4eA6Sz++qjiGF0W6yIPGIUdnwEQ==",
-      "publishedAt": "2026-10-04T09:48:03.845Z",
+      "downloads": 1922,
+      "integrity": "sha512-WaZXVLDQ2g598jXHymIuB31w/i60yqAq+RN5Ipsaf17EnbgPiH2WeJBAGXgGuRia83KJiQjnqXAp5z1n5pdEqw==",
+      "publishedAt": "2026-10-04T23:25:03.607Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -11429,7 +11429,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 807,
+      "downloads": 247,
       "integrity": "sha512-PUhG4dmF/x+oltgyDu3t69jX+jas7KiCgXwO867g8VAw9UW8q7GYsX1SC3Bv/lxlWkXfm6l87WTpJhxT212c9A==",
       "publishedAt": "2026-09-28T03:45:51.705Z",
       "riskFlags": [
@@ -12892,7 +12892,7 @@
       "id": "npm:dsh-calendar",
       "name": "dsh-calendar",
       "packageName": "dsh-calendar",
-      "version": "0.10.1",
+      "version": "0.10.3",
       "description": "连接 CalDAV 日历，在 DSH 中查看、创建和调整日程。",
       "category": "other",
       "author": "stardustlc",
@@ -12900,9 +12900,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 1558,
-      "integrity": "sha512-jqfCcDkdzozYSVkoCN1sHdW/uOMBZW6gQ6Hyz0QNeLMVHRbfmBhABbOpbZJ3JahcKqG7zzbnsPyp+atFAZNMeg==",
-      "publishedAt": "2026-10-03T10:31:14.025Z",
+      "downloads": 2076,
+      "integrity": "sha512-V/Iz8NcgGPGoesKL17TYGC1u87owRe5Jtr6Z7Dsuu4GFfT08e7x7gWg3G1SxRaJ77qlSOn9SeTaa7B+iUo/gDg==",
+      "publishedAt": "2026-10-05T04:56:51.680Z",
       "riskFlags": [
         "new-package"
       ]
@@ -13259,7 +13259,7 @@
       "id": "npm:dsh-cite",
       "name": "dsh-cite",
       "packageName": "dsh-cite",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "description": "批量导入 DOI / BibTeX，预览去重、补全文献元数据并导出引文。",
       "category": "other",
       "author": "stardustlc",
@@ -13267,9 +13267,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 1254,
-      "integrity": "sha512-ifruwk1sgpUAn3N6HHqS0m9QSVZc/f6xD3UlBKggOg2DY/bAB0Uo4+rHE/LwUExIiFppXYVQugylPE5rYMgXKA==",
-      "publishedAt": "2026-10-03T09:01:36.658Z",
+      "downloads": 1578,
+      "integrity": "sha512-Wy0/biV561BEg8cL/NK9MlMStUpXRsHt/YpQ8wwdwPFFUAO3+sQtQh+RKftN2RfLRjC34EO9OWnBjcscCqgQ4A==",
+      "publishedAt": "2026-10-05T04:07:35.860Z",
       "riskFlags": [
         "new-package"
       ]
@@ -13514,17 +13514,17 @@
       "id": "npm:dsh-code-index",
       "name": "dsh-code-index",
       "packageName": "dsh-code-index",
-      "version": "0.8.0",
-      "description": "Project-aware live structural context engine for DSH agents — isolated workspace indexes, task-aware context, and fresh repo maps.",
+      "version": "0.9.0",
+      "description": "Edit-ready Context Packs for DSH agents: bounded source excerpts, changes, related tests, and inclusion evidence — local-first.",
       "category": "agent",
       "author": "lemonxiny55",
       "homepage": "https://github.com/lemonxiny55/dsh-code-index",
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 600,
-      "integrity": "sha512-fQSGOuoBCyn7fgjyj3VFUFGB5Pfnq/33iGoyCksk5/1xwYf81mjODKJPePhI3mB9JhxBSMPT9K2KQi/FMvmoJw==",
-      "publishedAt": "2026-09-24T05:55:19.964Z",
+      "downloads": 398,
+      "integrity": "sha512-X+2Uf4z8C9XG6UQraCfMTmLeP0FMI/hnndlz1PWAHYHaoRz09VIytcZu959f1X/x7b5UcsE8vGgq7yDQByjnkQ==",
+      "publishedAt": "2026-10-05T03:23:58.105Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -13687,19 +13687,18 @@
       "id": "npm:dsh-codex-port",
       "name": "dsh-codex-port",
       "packageName": "dsh-codex-port",
-      "version": "0.2.4",
-      "description": "DSH 技能移植插件：把 Codex 官方技能一键移植为 DSH 技能，frontmatter 自动转换、名称清洗、幂等跳过。",
+      "version": "0.3.0",
+      "description": "把本机 Codex 技能转换为 DSH 可使用的技能。",
       "category": "other",
       "author": "stardustlc",
       "homepage": "https://github.com/STARDUSTLC666/dsh-codex-port#readme",
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 361,
-      "integrity": "sha512-1yzZCmNdIdhJ7rPjRTVNLlWWndqv+V7gSPqTM9nBrqK4Sx4yVqhTOekDZv6vhrF18G83QS4sP7tpnSeNQU1pcg==",
-      "publishedAt": "2026-09-28T16:05:24.941Z",
+      "downloads": 706,
+      "integrity": "sha512-qId9z+7hu0/QCWJmg4ttHU+lxf5+EGwms1K6jfQfvmyLWewkFthyABh4lAx9RdQ8yNMTVS/rRUpVRbRKTaHkCg==",
+      "publishedAt": "2026-10-05T04:08:39.443Z",
       "riskFlags": [
-        "no-provenance",
         "new-package"
       ]
     },
@@ -14197,7 +14196,7 @@
       "id": "npm:dsh-context-guardian",
       "name": "dsh-context-guardian",
       "packageName": "dsh-context-guardian",
-      "version": "0.1.0-alpha.8",
+      "version": "0.1.0-alpha.9",
       "description": "Context Guardian as a native DeepSeek Harness (DSH) bundle: deterministic, seq-pointer-preserving compaction with model-facing recall and search. Companion to dsh-tool-guardian.",
       "category": "model",
       "author": "LuminariSoftwares",
@@ -14205,9 +14204,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 814,
-      "integrity": "sha512-VEWU9EdtD4zzwd0atFQxQeoIjSYhFiFxCzh1HNNJjKZ5+HGvtPBxLUv5TpbBHR0LmvpafKtP7H66YUHRxZjwuw==",
-      "publishedAt": "2026-10-01T23:52:18.474Z",
+      "downloads": 884,
+      "integrity": "sha512-6frhhjRmGfb/gMQ8XIW8J1QBpsEsNqUGYh0BpRCPghtNIVU2WsPkxMbbZIfkb6J7Ai1hk0kGTnyy4pRewlG8kw==",
+      "publishedAt": "2026-10-04T22:04:34.451Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -14245,7 +14244,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 137,
+      "downloads": 99,
       "integrity": "sha512-Kfg3T6d6qhwi/qLVVRNKFxhcGWG7QUNhDjWG3HZw5A6sxws3ZNInCnx67JileueU+UDmRsapIXFLVDMO6MhfqA==",
       "publishedAt": "2026-09-14T05:36:56.010Z",
       "riskFlags": [
@@ -14432,24 +14431,21 @@
       ]
     },
     {
-      "id": "npm:dsh-ctrl-enter-submit",
-      "name": "dsh-ctrl-enter-submit",
-      "packageName": "dsh-ctrl-enter-submit",
-      "version": "1.1.1",
-      "description": "DeepSeek Harness 插件：将对话框提交快捷键改为 Ctrl/Cmd+Enter，普通 Enter 换行，可在设置中随时开关。 / A DSH plugin that makes Enter insert a newline and Ctrl/Cmd+Enter submit, toggleable in settings.",
-      "category": "other",
-      "author": "SA1992X",
-      "homepage": "https://github.com/SA1992X/dsh-ctrl-enter-submit#readme",
+      "id": "npm:dsh-crew",
+      "name": "dsh-crew",
+      "packageName": "dsh-crew",
+      "version": "0.10.0",
+      "description": "DeepSeek Harness (dsh) plugin: run work as a small crew of role agents (product manager, researcher, architect, engineer, test engineer, code engineer, QA, code reviewer, security reviewer, doc reviewer) that talk through files on disk, with the PM as the",
+      "category": "agent",
+      "author": "Stuart Hu",
+      "homepage": "https://github.com/stuarthu/dsh-crew#readme",
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 121,
-      "integrity": "sha512-PQ/X7Xw69bN1Mcazj14q42FxbXmImUOtCYC2C+LDVmiEt6F5A4goofi+E4XKIPLUxjoGSNwQi6llRNuO8xCEew==",
-      "publishedAt": "2026-09-14T08:19:16.571Z",
-      "riskFlags": [
-        "no-provenance",
-        "new-package"
-      ]
+      "downloads": 311,
+      "integrity": "sha512-9lG7bRaiqAV+JtDS06Y85/W5gfUrcYh5XTnvYTah8Xfe8bGd48+gVyNQ8Wjh/2arxCV747+w14hh55V3+bmK+Q==",
+      "publishedAt": "2026-08-23T22:12:10.146Z",
+      "riskFlags": []
     },
     {
       "id": "npm:dsh-cursor-subscription",
@@ -14668,7 +14664,7 @@
       "id": "npm:dsh-deeppilot",
       "name": "dsh-deeppilot",
       "packageName": "dsh-deeppilot",
-      "version": "0.9.1",
+      "version": "0.9.2",
       "description": "DeepPilot companion plugin for DeepSeek Harness: use DSH from a native iPhone app over an authenticated, direct connection to your own Mac.",
       "category": "other",
       "author": "mars-sea",
@@ -14676,9 +14672,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 852,
-      "integrity": "sha512-/lzSCA72UtkEWovM8g4LM/hTypUlDyIiHXhY0SSJ/NKjwRPGFFzc6jsB82aepg5G6rv4zJ4+mLYVIkYkYWC6pQ==",
-      "publishedAt": "2026-09-30T00:56:35.446Z",
+      "downloads": 566,
+      "integrity": "sha512-Bsh1JH3y+2JMT744dCrc8RqIEEm7jDFahzQdpf0a93vgPyUMRmtoa2oggVHPMnLN6JCB2/h3XoLJKukvT4a9Aw==",
+      "publishedAt": "2026-10-05T01:49:01.108Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -14957,25 +14953,6 @@
       "publishedAt": "2026-09-30T10:40:23.628Z",
       "riskFlags": [
         "new-package"
-      ]
-    },
-    {
-      "id": "npm:dsh-design-qa",
-      "name": "dsh-design-qa",
-      "packageName": "dsh-design-qa",
-      "version": "0.1.4",
-      "description": "让 DeepSeek Harness 里任何纯文本模型都能读图。识图是按需调用的 tool —— 图片不进主模型上下文，不看就不花钱；附 23 处缺陷的评测集，换模型可自测。",
-      "category": "model",
-      "author": "sunxin-ai",
-      "homepage": "https://github.com/sunxin-ai/dsh-design-qa#readme",
-      "source": "npm",
-      "installable": true,
-      "license": "MIT",
-      "downloads": 236,
-      "integrity": "sha512-lzOonhZMAIZ+mWgQ1x+9LG9h6PGkAtyOeDfF1kG5DeWjxLcJBh4k3l54tFCTzqKlk3x8BNxJ/TLbJDwdNGRyGw==",
-      "publishedAt": "2026-08-20T04:30:25.539Z",
-      "riskFlags": [
-        "no-provenance"
       ]
     },
     {
@@ -15486,7 +15463,7 @@
       "id": "npm:dsh-email",
       "name": "dsh-email",
       "packageName": "dsh-email",
-      "version": "0.15.3",
+      "version": "0.16.0",
       "description": "在 DSH 中收发、搜索和整理邮件，支持多个邮箱账号。",
       "category": "other",
       "author": "stardustlc",
@@ -15494,9 +15471,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 1650,
-      "integrity": "sha512-XFtqWOoCvVYh9Xnb6Wnj5HcJNcxQu565lE1OdiKL4fzdKnAiDCk2aKV1m4vpkYlEmCCC1nTgCu8ZfF/5D/8UXA==",
-      "publishedAt": "2026-10-04T03:50:14.224Z",
+      "downloads": 2640,
+      "integrity": "sha512-BVjHo1OqIcKfpmFjV/5cyL4OR+zXxAKf5P/IwKcur4ZQdTOeBFQn6Fb9wR3EXyUoWqRocaVeR82yNfRacd/zvQ==",
+      "publishedAt": "2026-10-05T04:07:01.304Z",
       "riskFlags": [
         "new-package"
       ]
@@ -15738,19 +15715,18 @@
       "id": "npm:dsh-ffmpeg",
       "name": "dsh-ffmpeg",
       "packageName": "dsh-ffmpeg",
-      "version": "0.4.4",
-      "description": "DSH 视频处理插件：ffmpeg 探测、裁剪、拼接、压制、字幕、GIF、抽帧与调整，走官方 subprocess 服务，零运行时依赖。",
+      "version": "0.4.5",
+      "description": "用自然语言调用 FFmpeg，处理已有音视频文件。",
       "category": "other",
       "author": "stardustlc",
       "homepage": "https://github.com/STARDUSTLC666/dsh-ffmpeg#readme",
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 578,
-      "integrity": "sha512-uyQidupM8D8uTZZ0rT93P+xoY9LMuuap9qgO6rbWUnmxL/Psn4rxHB7zB3ngKQw+6q6W/nSSEYiVZ3UdzGukmA==",
-      "publishedAt": "2026-09-28T16:06:19.594Z",
+      "downloads": 1331,
+      "integrity": "sha512-lRshtZE+1jXHMBLudP0YWNmd3cr4wIBYXpeYMpfWuLovHRo47vSJzj3471wz0jAIAToivj3Ex8C3NjmtaWVpYA==",
+      "publishedAt": "2026-10-05T04:07:09.170Z",
       "riskFlags": [
-        "no-provenance",
         "new-package"
       ]
     },
@@ -15933,19 +15909,18 @@
       "id": "npm:dsh-flakefinder",
       "name": "dsh-flakefinder",
       "packageName": "dsh-flakefinder",
-      "version": "0.3.4",
-      "description": "DSH 测试稳定性插件：重复运行 vitest/jest/pytest/node:test 找出 flaky 用例，提供历史与隔离清单，零运行时依赖。",
+      "version": "0.3.5",
+      "description": "重复运行测试，找出偶发失败用例并保留调查记录。",
       "category": "tool",
       "author": "stardustlc",
       "homepage": "https://github.com/STARDUSTLC666/dsh-flakefinder#readme",
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 208,
-      "integrity": "sha512-h7QF2dICjlYKlb/3gylCZjOXkU3IulrrHzy4XBMFyjG31U2v2Olr9YF0RydwHnVF1y/wesqDZC/IPFFT6pyGIg==",
-      "publishedAt": "2026-09-28T16:06:48.344Z",
+      "downloads": 759,
+      "integrity": "sha512-tioruEy8q6JpZWs1C41aTE+bXIHcfYxcS6S36SWkhOCIRYY1h8C4Kz3NvzRvuNshG72OwgXcdhpJmPciGKzMvw==",
+      "publishedAt": "2026-10-05T04:13:32.592Z",
       "riskFlags": [
-        "no-provenance",
         "new-package"
       ]
     },
@@ -16167,7 +16142,7 @@
       "id": "npm:dsh-gacha-calendar",
       "name": "dsh-gacha-calendar",
       "packageName": "dsh-gacha-calendar",
-      "version": "0.11.1",
+      "version": "0.11.2",
       "description": "二游活动/卡池排期速查：侧边栏底部按钮，点击展开各游戏当前版本、卡池与活动起止；覆盖 28 款游戏，支持联网自动刷新与刷新频率设置。",
       "category": "ui",
       "author": "eastmorning",
@@ -16175,9 +16150,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 1921,
-      "integrity": "sha512-TwqQVMqcy0pHaGm7snmNrwSSRRRaAoY7vP3qqUrWVJprYON65sWtsO2tyqzFj3jjgE7KxO+gZd+/X6El8aSmyw==",
-      "publishedAt": "2026-10-04T09:15:15.762Z",
+      "downloads": 1823,
+      "integrity": "sha512-kGgPwAaBQswh1eUri2sFdlTbthElwq2y//BydHN8RDKc/BFD1NHI7R9XUA089lUA+Rj9T+6tOLRBQXND6ASWQw==",
+      "publishedAt": "2026-10-05T06:05:18.423Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -16458,6 +16433,26 @@
       ]
     },
     {
+      "id": "npm:dsh-grafana-query",
+      "name": "dsh-grafana-query",
+      "packageName": "dsh-grafana-query",
+      "version": "0.1.1",
+      "description": "Read-only Grafana metrics and alert tools for DeepSeek Harness.",
+      "category": "tool",
+      "author": "maxmilian",
+      "homepage": "https://github.com/maxmilian/dsh-grafana-query#readme",
+      "source": "npm",
+      "installable": true,
+      "license": "MIT",
+      "downloads": 503,
+      "integrity": "sha512-gObh5O2+rUX+MZbLLeAm4myNiuzIIfxngC6mpXHALQlvbTaDee97h/Fp7+xKsg1/D8hnKLObWHdyWyzSKk+tCQ==",
+      "publishedAt": "2026-09-27T22:10:12.471Z",
+      "riskFlags": [
+        "no-provenance",
+        "new-package"
+      ]
+    },
+    {
       "id": "npm:dsh-graft-plugin",
       "name": "dsh-graft-plugin",
       "packageName": "dsh-graft-plugin",
@@ -16529,7 +16524,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 250,
+      "downloads": 387,
       "integrity": "sha512-y3Kusx24omGT/v679iwf/ZG1ooHMpJB7gAU+83FHXMejE7dlcM6X3gi+1cdn2E0PnADHyo3CsA/u5m0G9RC3aQ==",
       "publishedAt": "2026-08-31T03:17:58.494Z",
       "riskFlags": [
@@ -16829,25 +16824,6 @@
       ]
     },
     {
-      "id": "npm:dsh-http-tools",
-      "name": "dsh-http-tools",
-      "packageName": "dsh-http-tools",
-      "version": "0.1.5",
-      "description": "HTTP/API debugging toolset for DeepSeek Harness: http_request, curl_parse, request_history",
-      "category": "agent",
-      "author": "lussey820",
-      "homepage": "https://github.com/lussey820/dsh-http-tools#readme",
-      "source": "npm",
-      "installable": true,
-      "license": "MIT",
-      "downloads": 329,
-      "integrity": "sha512-+65vtdWJx2vQo+siEuNe3zL5nkl7tQ+yi/utMrtngKnB/5WBcKqSH3yP5t8EEo17SALzJX5EUSQUMxdnD1mrqg==",
-      "publishedAt": "2026-08-16T13:33:31.848Z",
-      "riskFlags": [
-        "no-provenance"
-      ]
-    },
-    {
       "id": "npm:dsh-hub-oauth-gateway",
       "name": "dsh-hub-oauth-gateway",
       "packageName": "dsh-hub-oauth-gateway",
@@ -16907,10 +16883,30 @@
       ]
     },
     {
+      "id": "npm:dsh-hypercompact",
+      "name": "dsh-hypercompact",
+      "packageName": "dsh-hypercompact",
+      "version": "0.2.4",
+      "description": "Deterministic, zero-LLM, byte-budget context compaction for DeepSeek Harness, with byte-exact recall of compacted history.",
+      "category": "model",
+      "author": "mrbeandev and contributors",
+      "homepage": "https://github.com/mrbeandev/dsh-hypercompact#readme",
+      "source": "npm",
+      "installable": true,
+      "license": "MIT",
+      "downloads": 734,
+      "integrity": "sha512-+SY7bMgGcgttiV3vc2+sSStAJ3Ksd9qfgVHad806MrLYi0TEk3UDoC3PE1Z589ve+evY5zOxcMgMwlSXJPEl8g==",
+      "publishedAt": "2026-10-05T04:34:03.636Z",
+      "riskFlags": [
+        "no-provenance",
+        "new-package"
+      ]
+    },
+    {
       "id": "npm:dsh-hyperframes",
       "name": "dsh-hyperframes",
       "packageName": "dsh-hyperframes",
-      "version": "0.5.1",
+      "version": "0.6.0",
       "description": "DSH 视频插件：HyperFrames 技能、模板与素材工作台、官方预览和本地 MP4 导出。",
       "category": "other",
       "author": "stardustlc",
@@ -16918,9 +16914,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 1300,
-      "integrity": "sha512-CrjtOB2mEUKBQl1Gq82UF2xk8hvJwM1Qi7fESY5O3P1jZY5uT+J3/aoJftfvbBX/lR1uL16StFUCLtc7JO8bhA==",
-      "publishedAt": "2026-10-03T10:33:24.217Z",
+      "downloads": 1872,
+      "integrity": "sha512-JyuwScjzBaOsAV2zx28TF8RZcyrQkcJhwYywePbeVlcfzYMMsETftzzbx8W8RCovxNyZ+sWP8z3erGkk8Lw4fg==",
+      "publishedAt": "2026-10-05T04:11:06.476Z",
       "riskFlags": [
         "new-package"
       ]
@@ -16987,7 +16983,7 @@
       "id": "npm:dsh-im-companion",
       "name": "dsh-im-companion",
       "packageName": "dsh-im-companion",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "description": "dsh-im-companion：以助理和家的概念增强 dsh-im——哪个工作区有助理在管、在不在线尽收眼底，搬家拖一下就行。",
       "category": "agent",
       "author": "feather_wch",
@@ -16995,9 +16991,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 431,
-      "integrity": "sha512-4Vmcln2C5SUD0T4xcUx8E31/63ec3CzalV+BGZSE+Sk2eDOLDTi24uBwyaaC9AoFOeew6R6XDh+b3OfzzN/yzg==",
-      "publishedAt": "2026-10-02T15:14:20.029Z",
+      "downloads": 904,
+      "integrity": "sha512-TJAKuTwdmqn/ppb2qgYIM5xMz5ISzJBacJMLo+rIjYl/5o8meD2fzKK2MOHYPBrZc0fkHOODZUds7TSkmM0FGA==",
+      "publishedAt": "2026-10-05T05:41:01.322Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -17241,7 +17237,7 @@
       "id": "npm:dsh-instruction-memory",
       "name": "dsh-instruction-memory",
       "packageName": "dsh-instruction-memory",
-      "version": "1.0.15",
+      "version": "1.0.16",
       "description": "User-only instruction memory for DSH: long-term instructions maintained in the settings UI and auto-injected into every conversation — the model has no write access. 指令记忆：只由用户在设置页维护的长期指令，自动注入此后每轮对话；模型没有任何写入口。",
       "category": "ui",
       "author": "huangpeiyan",
@@ -17249,9 +17245,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 1431,
-      "integrity": "sha512-+Zvueg1+5nC7pKIzfjP48CmtAsdsnEEa7FQAmJi2nM0/3Ws/8GuUHrmZnN6iDx4askgrBhjsxLZWZLYxBrtwFg==",
-      "publishedAt": "2026-10-03T12:09:00.353Z",
+      "downloads": 1225,
+      "integrity": "sha512-h5YqEaqHyL3bWGM1gxI6SOoGVBXn/7GYVvlhxJyeaqpGew6rFS0SZxn3Q67/bBZCb8EKn9kn0eRAsZG/v6P4Iw==",
+      "publishedAt": "2026-10-05T01:40:48.670Z",
       "riskFlags": [
         "new-package"
       ]
@@ -17615,7 +17611,7 @@
       "id": "npm:dsh-knit",
       "name": "dsh-knit",
       "packageName": "dsh-knit",
-      "version": "0.16.0",
+      "version": "0.17.0",
       "description": "Find the doc your agent just wrote. Lists the DSH workspace's Markdown, images and video in the sidebar, ranked by relevance to the current conversation, with inline preview — and hands the same ranking to the agent as a tool, returning the passage that m",
       "category": "agent",
       "author": "Polinni",
@@ -17623,11 +17619,10 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 601,
-      "integrity": "sha512-2WwycrZ9w4xpE/GFTmllaJFjz5e0LjWvXVhnaOGhcOFKyobZQmjSMam55rdfAl978aAvLD/mV5vNqDObBDcCHg==",
-      "publishedAt": "2026-10-03T11:59:30.346Z",
+      "downloads": 890,
+      "integrity": "sha512-apAeMPvAqsRyddAZSxiMFjkYasoLKGabzS/eHZMRv/cEJcD9Tqop7t2Tw86aN+iFuE9li410RTvBABHheLK5Mg==",
+      "publishedAt": "2026-10-05T00:44:42.079Z",
       "riskFlags": [
-        "no-provenance",
         "new-package"
       ]
     },
@@ -17706,45 +17701,6 @@
       "integrity": "sha512-zqi2cXPkEwQ1W7ltwIIyGi/RM32zj/eDm+nqhraSxlo/xV8wVLYydq1QvOeQaw9CpxRmmDxxESYPlSV0wtmUKA==",
       "publishedAt": "2026-10-02T14:28:38.073Z",
       "riskFlags": [
-        "new-package"
-      ]
-    },
-    {
-      "id": "npm:dsh-koboldcpp-hands",
-      "name": "dsh-koboldcpp-hands",
-      "packageName": "dsh-koboldcpp-hands",
-      "version": "0.1.1",
-      "description": "KoboldCpp for DeepSeek Harness - a tool plugin that lets the harness online model hand repetitive text and vision (OCR) labor to a local KoboldCpp (llama.cpp) server.",
-      "category": "model",
-      "author": "microhero",
-      "homepage": "https://github.com/MicroHEROX/dsh-koboldcpp-hands#readme",
-      "source": "npm",
-      "installable": true,
-      "license": "MIT",
-      "downloads": 334,
-      "integrity": "sha512-XLdoikzG6voPBtMZ80bLy3IPwke859H9eWnVAlxFo2LugD+44H78qxM6mHaV/RQL+wNfsNoHkMzUqKjhmHcj9g==",
-      "publishedAt": "2026-08-15T06:05:01.104Z",
-      "riskFlags": [
-        "no-provenance"
-      ]
-    },
-    {
-      "id": "npm:dsh-kubectl-guard",
-      "name": "dsh-kubectl-guard",
-      "packageName": "dsh-kubectl-guard",
-      "version": "0.2.1",
-      "description": "A dsh policy plugin that gates kubectl writes by kubeconfig context: hard-deny irreversible verbs outside local clusters, ask for the rest.",
-      "category": "other",
-      "author": "gengwg",
-      "homepage": "https://github.com/gengwg/dsh-kubectl-guard#readme",
-      "source": "npm",
-      "installable": true,
-      "license": "MIT",
-      "downloads": 78,
-      "integrity": "sha512-1OmnfmH5CwrY5vBoV+HborEU0CDyGj/KqdZgalE5je7JHlaVVxa7AKBP/uIvflEaQvE1QbOT/roYfrq+b3s0IQ==",
-      "publishedAt": "2026-09-13T22:24:56.178Z",
-      "riskFlags": [
-        "no-provenance",
         "new-package"
       ]
     },
@@ -18011,31 +17967,12 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 177,
+      "downloads": 584,
       "integrity": "sha512-SPxeRh0SRvTCoOs7F3vJzSiElzImGGuWEnk9lih0F2IpzZXoRoQlKpbxa9BtgPW8IrjlkNETKuGBQcbnvHmTJw==",
       "publishedAt": "2026-09-28T04:00:52.114Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
-      ]
-    },
-    {
-      "id": "npm:dsh-liquid-glass",
-      "name": "dsh-liquid-glass",
-      "packageName": "dsh-liquid-glass",
-      "version": "0.1.0",
-      "description": "DeepSeek Harness 液态玻璃：点一下，整个界面通透起来。透明度随心调，背景图自由换——让你的 Agent 住进风景里。Liquid glass for DeepSeek Harness: one toggle to turn the whole shell translucent, with a live opacity slider and a custom full-page background.",
-      "category": "agent",
-      "author": "Ultronen",
-      "homepage": "https://github.com/Ultronen/dsh-liquid-glass",
-      "source": "npm",
-      "installable": true,
-      "license": "MIT",
-      "downloads": 281,
-      "integrity": "sha512-rb1fPbi7Zt7Gf0UqwF4shew3+bjt8E74s8R0IXhmYgeJCkVLzAgWxbv7FrO96H0V/LgjP28OqnHT2dEuoazOqA==",
-      "publishedAt": "2026-08-16T01:03:21.669Z",
-      "riskFlags": [
-        "no-provenance"
       ]
     },
     {
@@ -18219,7 +18156,7 @@
       "id": "npm:dsh-llm-retry-settings",
       "name": "dsh-llm-retry-settings",
       "packageName": "dsh-llm-retry-settings",
-      "version": "0.1.12",
+      "version": "0.1.14",
       "description": "DSH 插件：LLM 自动重试设置卡片——重试次数/退避/抖动与 25 个错误码可勾选（也能自己输入），可按 provider/model 单独设策略、回答被输出 token 上限截断时自动续写且提示词可改，内置重试观测面板，改完实时生效。",
       "category": "model",
       "author": "jiaszeng",
@@ -18227,9 +18164,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 428,
-      "integrity": "sha512-YBCkmHxunQofMqualv08bwTNpd0bzPzlhzW+3yCz2aUzY9Sl3FelF5e3RR7rhsZpvJmzZBkc/ocGBWu8b3X3aw==",
-      "publishedAt": "2026-09-22T20:01:31.859Z",
+      "downloads": 349,
+      "integrity": "sha512-qV+TDHjQHITImrRzXHy0/3O1qgWf7i0kDkMYkdBMznF7lLFI0qi5nIFYYX36MKbI6yWDOSLGnveg/EzkP4l8Yw==",
+      "publishedAt": "2026-10-05T05:49:16.585Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -19134,39 +19071,18 @@
       "id": "npm:dsh-minimal-ptc",
       "name": "dsh-minimal-ptc",
       "packageName": "dsh-minimal-ptc",
-      "version": "0.5.2",
-      "description": "DeepSeek Harness 极简 PTC 预设：简洁提示词、run_code 工具编排、完整插件工具，以及 Windows Git Bash 和持久 PowerShell。",
+      "version": "0.5.4",
+      "description": "把官方极简提示词与 PTC 编排组合起来，提供完整插件工具和 Windows 终端适配。",
       "category": "agent",
       "author": "stardustlc",
       "homepage": "https://github.com/STARDUSTLC666/dsh-minimal-ptc#readme",
       "source": "npm",
       "installable": false,
       "license": "MIT",
-      "downloads": 538,
-      "integrity": "sha512-/26bAixBWjsq9aGjCZR1aKIEppmUm4it0uyHRSM0mCHxfT3eaNIkDrhE0rqjB4N4Q6iVng62ejyG13mjKu+bNA==",
-      "publishedAt": "2026-09-28T16:11:56.773Z",
+      "downloads": 830,
+      "integrity": "sha512-LSdr/3BE44URMceZOcunKhncc9yEghdzFh+m4zdmqt+mxgxpuDLEfvlHWQMMGAQc78YEQOhVoWScDg1cSGPHIQ==",
+      "publishedAt": "2026-10-05T04:54:11.838Z",
       "riskFlags": [
-        "no-provenance",
-        "new-package"
-      ]
-    },
-    {
-      "id": "npm:dsh-miopiik",
-      "name": "dsh-miopiik",
-      "packageName": "dsh-miopiik",
-      "version": "0.4.0",
-      "description": "MiOpIIk workflow and recovery extensions for DeepSeek Harness 0.2; native DSH owns subagent routing, model authorization, skill loading, and session search.",
-      "category": "agent",
-      "author": "chillizu",
-      "homepage": "https://github.com/Chillizu/mop-plugins#readme",
-      "source": "npm",
-      "installable": true,
-      "license": "MIT",
-      "downloads": 366,
-      "integrity": "sha512-x76kdvacNtITaQk5pIw2cmcQvit1QPR2ljO7+DVUJA5lXhFsSLIrn8Oh4V9F6a04wNYRN8ezwqzODJpQ2pRyIw==",
-      "publishedAt": "2026-10-04T08:24:39.688Z",
-      "riskFlags": [
-        "no-provenance",
         "new-package"
       ]
     },
@@ -19638,8 +19554,7 @@
       "integrity": "sha512-BbeGhVWthIJtQ2x83Xr4CGQeNrTS067qCOLyW2EjTNb5YCf+k/hjJboR7taPHpzCf+Z5/RkTnFcXfAfYU5qiVQ==",
       "publishedAt": "2026-09-05T03:32:58.654Z",
       "riskFlags": [
-        "no-provenance",
-        "new-package"
+        "no-provenance"
       ]
     },
     {
@@ -19851,7 +19766,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 377,
+      "downloads": 428,
       "integrity": "sha512-nkR0gAv/ez4LtXFwKDLvU8It6eGTRrqzdpaxAFqEhaP7GbriqaAmPF7bnZhlym+UWwuYNw3SRA/VJ/k2G3wkwQ==",
       "publishedAt": "2026-09-14T03:16:39.925Z",
       "riskFlags": [
@@ -19863,7 +19778,7 @@
       "id": "npm:dsh-nexus",
       "name": "dsh-nexus",
       "packageName": "dsh-nexus",
-      "version": "0.2.52",
+      "version": "0.2.54",
       "description": "Nexus 个人编码助理：在桌面端和消息渠道中安排、跟进与验收本机编码任务。Personal coding assistant for DSH.",
       "category": "agent",
       "author": "yuqiguang",
@@ -19872,8 +19787,8 @@
       "installable": true,
       "license": "MIT",
       "downloads": 1353,
-      "integrity": "sha512-o2ffzq+O+WfSxi/ZkHyfvrnweuwdi/1vqQ0RSUOtcBttN5X12uRz658Qc+jNBYrsk9SsEkGPjWF7tEUTdTpxBw==",
-      "publishedAt": "2026-10-04T16:36:33.701Z",
+      "integrity": "sha512-GcCDkba/z5mBSg8BFkCKbfLy/2VWqKtFPHVi7OvVzaXvGZnCkFpxGfI7UqqKCOBthbf4+OnaBTc+GlSuaJfxdg==",
+      "publishedAt": "2026-10-05T03:04:28.965Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -20194,6 +20109,26 @@
       "riskFlags": []
     },
     {
+      "id": "npm:dsh-odoo",
+      "name": "dsh-odoo",
+      "packageName": "dsh-odoo",
+      "version": "0.1.1",
+      "description": "Read-only Odoo tools for DeepSeek Harness, with an opt-in restricted draft-create tool.",
+      "category": "tool",
+      "author": "maxmilian",
+      "homepage": "https://github.com/maxmilian/dsh-odoo#readme",
+      "source": "npm",
+      "installable": true,
+      "license": "MIT",
+      "downloads": 539,
+      "integrity": "sha512-U/xADj6l8w1/Zzwk1E/V2/DCgpomF1W36dx/9SSFuZPw2CglKMyP4q/sIwKwZ8kcvghiBUvTyIPrt0t1gev36A==",
+      "publishedAt": "2026-09-27T22:09:20.535Z",
+      "riskFlags": [
+        "no-provenance",
+        "new-package"
+      ]
+    },
+    {
       "id": "npm:dsh-office",
       "name": "dsh-office",
       "packageName": "dsh-office",
@@ -20342,7 +20277,7 @@
       "source": "npm",
       "installable": false,
       "license": "MIT",
-      "downloads": 83,
+      "downloads": 262,
       "integrity": "sha512-Zbcz2rF0PP5KXz4K02LCggY1IYiTQ27JjbY8gz49vDmcRmAhbMNKx6yJ/XppJft1pTATABcFaeC6tOYoEAs/1w==",
       "publishedAt": "2026-09-28T02:15:32.529Z",
       "riskFlags": [
@@ -20503,6 +20438,25 @@
       "publishedAt": "2026-10-02T09:12:28.346Z",
       "riskFlags": [
         "no-provenance",
+        "new-package"
+      ]
+    },
+    {
+      "id": "npm:dsh-opencode-patch",
+      "name": "dsh-opencode-patch",
+      "packageName": "dsh-opencode-patch",
+      "version": "0.13.0",
+      "description": "OpenCode on DeepSeek Harness — session affinity, Zen/Go gateway origin headers, free-tier tool fallback, and live Go quota display.",
+      "category": "model",
+      "author": "viztor",
+      "homepage": "https://github.com/viztor/dsh-opencode-patch",
+      "source": "npm",
+      "installable": true,
+      "license": "MIT",
+      "downloads": 1449,
+      "integrity": "sha512-w5Gy4DWSFA8a7NzCbaNMF/YgrmfonFfRwEw1OX+1B3DbYEU4p0QHjPVk/UygBlY+5d9nBbCAlk4yHc4Y9hbZ5A==",
+      "publishedAt": "2026-10-05T02:20:45.889Z",
+      "riskFlags": [
         "new-package"
       ]
     },
@@ -20866,7 +20820,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 364,
+      "downloads": 391,
       "integrity": "sha512-EITVkzu5L4uQMAKwwzruI/nQv3XcbgUbE7WBQhStGEJVK00UUg+T8JjE+/GGj0jG51IaGV3aTYwsg7B5eC6eyA==",
       "publishedAt": "2026-09-21T01:07:45.078Z",
       "riskFlags": [
@@ -21062,31 +21016,12 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 217,
+      "downloads": 233,
       "integrity": "sha512-GWWglcQHN6sNwYz2gbK4SmxVkNW4FR7G+dN/JsM6TV72qX+sCRO4aKJTJMQTLiAmzAiN+utAzT3H19lYH/DOOg==",
       "publishedAt": "2026-09-28T05:49:31.323Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
-      ]
-    },
-    {
-      "id": "npm:dsh-playwright",
-      "name": "dsh-playwright",
-      "packageName": "dsh-playwright",
-      "version": "0.1.0",
-      "description": "Use one shared Playwright browser together with your DeepSeek Harness AI.",
-      "category": "agent",
-      "author": "jeremyguo",
-      "homepage": "https://github.com/JeremyGuo/dsh-playwright#readme",
-      "source": "npm",
-      "installable": true,
-      "license": "MIT",
-      "downloads": 232,
-      "integrity": "sha512-nTx+WWLNohbOkXyHDCOGRk5oaWLu5VSQDb142d3hx5/D+V7nDacTGk7OkZFUBtmEptqJIp6T7eLQoPSVu4x0yQ==",
-      "publishedAt": "2026-08-15T03:36:03.041Z",
-      "riskFlags": [
-        "no-provenance"
       ]
     },
     {
@@ -21152,7 +21087,7 @@
       "id": "npm:dsh-plugin-admin",
       "name": "admin",
       "packageName": "dsh-plugin-admin",
-      "version": "1.27.5",
+      "version": "1.27.6",
       "description": "dsh Web UI admin plugin: eleven management panels (extensions, skills, MCP servers, subagents, commands, hooks, automation - cron / webhook / workflow, sessions & web search, usage dashboard, todo dock) inside the official dsh settings UI",
       "category": "agent",
       "author": "master0071",
@@ -21160,9 +21095,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 2598,
-      "integrity": "sha512-QSvYdFUnUrb0u7P/1t+dRAZ9sKPcp6ZEkIH2rgvFMiJcutn+ZdZFrHn5Ey5mQvord1xTZ4PbVtZVtLyot6qlhw==",
-      "publishedAt": "2026-10-04T11:00:05.594Z",
+      "downloads": 2396,
+      "integrity": "sha512-aqSh4TqOuQD8NfdVyR486qD8TASzmq01seU7bn4b3+WnUQgw1o9jSIvwlKsVRUNyWzf4hXU1si2g4TBhrFGIOg==",
+      "publishedAt": "2026-10-05T01:44:26.717Z",
       "riskFlags": [
         "new-package"
       ]
@@ -21203,8 +21138,7 @@
       "integrity": "sha512-HsTGxTuzytRO7ki5azNZ/JzBwFPOh2Enk2DNM64gVXYxVfYg2f8XSjwFj+FS22hzrQouYauEzyv8UYHL2CfrGA==",
       "publishedAt": "2026-09-05T01:42:35.562Z",
       "riskFlags": [
-        "no-provenance",
-        "new-package"
+        "no-provenance"
       ]
     },
     {
@@ -21308,7 +21242,7 @@
       "id": "npm:dsh-plugin-catalog",
       "name": "catalog",
       "packageName": "dsh-plugin-catalog",
-      "version": "2026.1004.4804",
+      "version": "2026.1005.4805",
       "description": "The DeepSeek Harness plugin catalog (4412 entries) · DeepSeek Harness 插件目录",
       "category": "other",
       "author": "GitHub Actions",
@@ -21316,9 +21250,9 @@
       "source": "npm",
       "installable": false,
       "license": "CC0-1.0",
-      "downloads": 3712,
-      "integrity": "sha512-LhCW9zZqnPOaHpn9OWKxUOHaoCkp8nGl5r+As128C0XuG2lRQBa5on1kGhJP94Kql64/30fQosGWaKtPw7OeTQ==",
-      "publishedAt": "2026-10-04T04:25:57.208Z",
+      "downloads": 3866,
+      "integrity": "sha512-8lVCNof9M8XLoxVaOGlLENW343tY+MacLCERhTm75SmHiy/J4QlesgKsrYc8u1tosZtEpDKuXwu2wTnoJof/rw==",
+      "publishedAt": "2026-10-05T03:54:39.071Z",
       "riskFlags": [
         "new-package"
       ]
@@ -21485,7 +21419,7 @@
       "id": "npm:dsh-plugin-ideas-manager",
       "name": "ideas-manager",
       "packageName": "dsh-plugin-ideas-manager",
-      "version": "0.9.0",
+      "version": "0.10.0",
       "description": "Generic idea manager for the DSH Web GUI: Host-authoritative /api/ideas ledger, capture, 4-column kanban (open / under review / archived / declined), one-click execution launch (mirrored TaskBoard card or a direct session), optional TaskBoard mirror; moun",
       "category": "other",
       "author": "GitHub Actions",
@@ -21493,9 +21427,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 1609,
-      "integrity": "sha512-GwyxTMDhg6vHpK2XH0vWi38Ka9Fv8UuSoGaduFnF5hrI0JT3zAQSIAA9M43pjZcbJntF9d70qrN1cfnbX1EUFQ==",
-      "publishedAt": "2026-10-04T04:52:23.644Z",
+      "downloads": 791,
+      "integrity": "sha512-fYLGsEy3c+YGILCUBqKGbYYuHxGe272e814vTsPRWsXUbj91XkLTubWST9TsGLa8Bn1IA5TH/28HLqKogj3KsA==",
+      "publishedAt": "2026-10-05T00:53:23.263Z",
       "riskFlags": [
         "new-package"
       ]
@@ -21676,25 +21610,6 @@
       "riskFlags": [
         "no-provenance",
         "new-package"
-      ]
-    },
-    {
-      "id": "npm:dsh-plugin-mini-dashboard",
-      "name": "mini-dashboard",
-      "packageName": "dsh-plugin-mini-dashboard",
-      "version": "0.3.0",
-      "description": "Session & token mini dashboard above the sidebar's Settings row for DeepSeek Harness · 侧边栏「设置」上方的会话/token 迷你仪表盘 DSH 插件",
-      "category": "ui",
-      "author": "GitHub Actions",
-      "homepage": "https://github.com/focksor/dsh-plugin-mini-dashboard#readme",
-      "source": "npm",
-      "installable": true,
-      "license": null,
-      "downloads": 123,
-      "integrity": "sha512-P1N7Gges4ZNF1/awgGXWCSMvQqHz5PXLP64gGV92vsS+KpAmKUxi3UojOOecyczJdq2doQzB6V7u/W0dPUjfTA==",
-      "publishedAt": "2026-08-31T01:57:19.128Z",
-      "riskFlags": [
-        "no-license"
       ]
     },
     {
@@ -22030,7 +21945,7 @@
       "id": "npm:dsh-plugin-updates",
       "name": "updates",
       "packageName": "dsh-plugin-updates",
-      "version": "2026.1004.4804",
+      "version": "2026.1005.4805",
       "description": "Per-plugin update notes for the DeepSeek Harness plugin catalog (4412 entries) · 插件更新说明数据",
       "category": "other",
       "author": "GitHub Actions",
@@ -22038,9 +21953,9 @@
       "source": "npm",
       "installable": false,
       "license": "CC0-1.0",
-      "downloads": 5598,
-      "integrity": "sha512-GeUFb6a3aRKlmnVY4JQhEW8TkMxF852L0i/798DizT8H9WA0ZfCT8Y/jyn4+6Sj819kuWphHkjiIf5D2/TXYZA==",
-      "publishedAt": "2026-10-04T04:26:46.883Z",
+      "downloads": 5964,
+      "integrity": "sha512-yo6gcdA/0ojs3Cvwiab6RVw/1TXbPVSct7j3cjOYZ5kTIKLSwv3Wyr4LRQ4yoj+SpOBVe3yQOZuPHLQYr+qAQA==",
+      "publishedAt": "2026-10-05T03:54:47.460Z",
       "riskFlags": [
         "new-package"
       ]
@@ -22183,6 +22098,25 @@
       ]
     },
     {
+      "id": "npm:dsh-plugin-wsl-env",
+      "name": "wsl-env",
+      "packageName": "dsh-plugin-wsl-env",
+      "version": "0.7.5",
+      "description": "让 DeepSeek Harness 以 WSL 子系统作为会话的执行环境：shell、文件读写与命令执行均在子系统内完成，目录选择器与 GUI 终端同样定位到子系统路径，并通过子系统内的 bubblewrap 对命令进行沙箱隔离",
+      "category": "tool",
+      "author": "Andy Zhao",
+      "homepage": "https://github.com/Big-Dao/dsh-plugin-wsl-env#readme",
+      "source": "npm",
+      "installable": true,
+      "license": "MIT",
+      "downloads": 2212,
+      "integrity": "sha512-oBAX52eIqyfPI11Wsex9JuUWv8jXiSMyvhBLhXDXNj7O7hN37/NvqzVoyP/fa1GOsRkIi99DiXkq7hjALXhzBw==",
+      "publishedAt": "2026-10-05T04:45:35.671Z",
+      "riskFlags": [
+        "new-package"
+      ]
+    },
+    {
       "id": "npm:dsh-pocket",
       "name": "dsh-pocket",
       "packageName": "dsh-pocket",
@@ -22264,7 +22198,7 @@
       "id": "npm:dsh-ppt",
       "name": "dsh-ppt",
       "packageName": "dsh-ppt",
-      "version": "0.8.1",
+      "version": "0.9.0",
       "description": "DSH 演示文稿插件：生成 HTML、可编辑 PPTX 和工程文件，支持图表、轻量编辑、撤销与质量检查。",
       "category": "other",
       "author": "stardustlc",
@@ -22272,9 +22206,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 2938,
-      "integrity": "sha512-ANuAoyzlcfIbKJOCHPpGJLsidHNUNNRTiQDM6qzsyT3tALBA8MWRC1eUj+iBmZlpSms5k2U2lxnMN59PKuzvQw==",
-      "publishedAt": "2026-10-03T10:31:59.543Z",
+      "downloads": 3841,
+      "integrity": "sha512-s7lYf26K+Ix/fc2GY9OO66fJTNcvB4Dr6tPPAw5mw3uWuma7ZZSqhsh7fSIW4dSG5mYjCGLTQJXfXRGsEQlrOA==",
+      "publishedAt": "2026-10-05T04:07:50.001Z",
       "riskFlags": [
         "new-package"
       ]
@@ -22381,7 +22315,7 @@
       "id": "npm:dsh-prompt",
       "name": "dsh-prompt",
       "packageName": "dsh-prompt",
-      "version": "0.2.10",
+      "version": "0.2.11",
       "description": "DSH prompt 工具箱：预制 + 自定义 prompt 模板，点击即插入当前对话输入框（v1 常规模式 + v1.1 智能模式悬浮卡） | Prompt toolbox for DeepSeek Harness: preset + custom prompt templates, one-click insert into the conversation.",
       "category": "model",
       "author": "feather_wch",
@@ -22389,9 +22323,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 1234,
-      "integrity": "sha512-GvTx5iNRrzqEydNOauWHnz6rwHBmg/aXOVRK/AZjY9Q3kRBUWfDlWzQNp7ub5UnkReqSpaET6gK1uBwtW5AIQg==",
-      "publishedAt": "2026-10-03T08:40:04.308Z",
+      "downloads": 2831,
+      "integrity": "sha512-e/8XrYQGKgx0HUIGxaakW13EOVQL38X+wrSOBj8aze+aKodwhSBamPa38hXIbopPItf7qIxq0aFTXqUwYZuw7g==",
+      "publishedAt": "2026-10-05T04:43:41.417Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -23043,7 +22977,7 @@
       "id": "npm:dsh-remote",
       "name": "dsh-remote",
       "packageName": "dsh-remote",
-      "version": "0.8.36",
+      "version": "0.8.37",
       "description": "Remote-work assistant for DeepSeek Harness: connect SSH (password/key/agent/keyboard-interactive/proxy jump), pick a remote workspace, operate on it with 20 rw_* tools (incl. rw_edit/rw_stat/rw_mkdir/rw_remove/rw_move/rw_forward), conflict-aware mirror sy",
       "category": "agent",
       "author": "flymysql",
@@ -23051,9 +22985,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 3676,
-      "integrity": "sha512-OpUA91d/wApN5DohAKi5tAeDCXSwAjjeQj0JbsgiqBWO+30jiaik9nWmSpmViJRnceFwmnbhL8NKujn4kcFqBw==",
-      "publishedAt": "2026-10-03T01:51:37.111Z",
+      "downloads": 5110,
+      "integrity": "sha512-fzgLnNaADqyRtdgu3NPwK2tvCKy7gLw12aiZZcEkvhKwwoc3xNlEVHundaUvKs8CQw3/wZI2QVc9wXlhbfuM1g==",
+      "publishedAt": "2026-10-05T01:36:10.951Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -23123,7 +23057,7 @@
       "id": "npm:dsh-remotion",
       "name": "dsh-remotion",
       "packageName": "dsh-remotion",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "DSH 视频插件：Remotion 技能、模板与素材工作台、官方 Studio 预览和本地 MP4 导出。",
       "category": "other",
       "author": "stardustlc",
@@ -23131,9 +23065,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 1154,
-      "integrity": "sha512-y1SUnUEI7b5eeVnZ8jVGxlTRIS4F+SSYjgPI5FJD0bkDLdFkBlOazKDNoxDCshMhMFaZEK/PhysFKvJo1BDDLg==",
-      "publishedAt": "2026-10-03T10:31:29.958Z",
+      "downloads": 1577,
+      "integrity": "sha512-Hs3fY1mX3xCBu1ZDEz+w6Ucio2VZiJVPTI4ep0nniqFcAcwfhV/b3Ga1YCutOZj0hTfPeMgZ3bIGo39SpgG1SQ==",
+      "publishedAt": "2026-10-05T04:07:58.499Z",
       "riskFlags": [
         "new-package"
       ]
@@ -23216,25 +23150,6 @@
       ]
     },
     {
-      "id": "npm:dsh-resume-screening",
-      "name": "dsh-resume-screening",
-      "packageName": "dsh-resume-screening",
-      "version": "0.1.5",
-      "description": "[支持 DSH 0.1.7–0.2.x / DSH 0.1.7–0.2.x compatible] Resume screening plugin for DeepSeek Harness (HR): ingest up to 100k Word/PDF/Excel resumes into one searchable library with skills / coarse categories / ingest time, auto-ingest & de-dupe new resumes, the",
-      "category": "tool",
-      "author": "wangzhanchao883",
-      "homepage": "https://github.com/wangzhanchao883/dsh-resume-screening",
-      "source": "npm",
-      "installable": true,
-      "license": "MIT",
-      "downloads": 537,
-      "integrity": "sha512-1ZmUM9Pt66cmbPkJPIhCHtceP7dQrax6WBLdfw0j2MwTO5beLr1RndUhjNUXTkH79jYAe8FCAh2CGEp52Pp7Pw==",
-      "publishedAt": "2026-10-02T02:24:52.619Z",
-      "riskFlags": [
-        "new-package"
-      ]
-    },
-    {
       "id": "npm:dsh-retrace",
       "name": "dsh-retrace",
       "packageName": "dsh-retrace",
@@ -23288,6 +23203,26 @@
       "downloads": 455,
       "integrity": "sha512-xKx2vTlh6KYVKsigPDbbPJn7urx5dy9K4RTanpx8rCGSQaFmPoZzglWN5g3FImWHNFJmqOjrTMshG3HuH/Ux2A==",
       "publishedAt": "2026-10-01T01:43:06.202Z",
+      "riskFlags": [
+        "no-provenance",
+        "new-package"
+      ]
+    },
+    {
+      "id": "npm:dsh-right-bg-anim",
+      "name": "dsh-right-bg-anim",
+      "packageName": "dsh-right-bg-anim",
+      "version": "1.1.0",
+      "description": "DSH 装饰插件：仅在新会话的主内容区（侧边栏右侧）渲染透明流体薄膜与弹性网格，支持玻璃/调制双模式与明暗主题自适应，其他 UI 全部保持官方。",
+      "category": "ui",
+      "author": "forestlightelf",
+      "homepage": "https://github.com/forestlightelf/dsh-right-bg-anim#readme",
+      "source": "npm",
+      "installable": true,
+      "license": "MIT",
+      "downloads": 707,
+      "integrity": "sha512-GgJ0uWub6wQahxK4q7wlsCFuz/4lZgabAsvBUn+1zA/BakZHlMnHrUO6JORPbjkI0OfxaTcpAEcpa/9//C0tyA==",
+      "publishedAt": "2026-09-21T02:02:14.231Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -23768,6 +23703,26 @@
       ]
     },
     {
+      "id": "npm:dsh-sentry",
+      "name": "dsh-sentry",
+      "packageName": "dsh-sentry",
+      "version": "0.1.1",
+      "description": "Read-only Sentry issue and event tools for DeepSeek Harness.",
+      "category": "tool",
+      "author": "maxmilian",
+      "homepage": "https://github.com/maxmilian/dsh-sentry#readme",
+      "source": "npm",
+      "installable": true,
+      "license": "MIT",
+      "downloads": 569,
+      "integrity": "sha512-LAyWHY9jzgMNn4a8pxqSpqerMDw/OqkV4FZL21k1i5WENUDStGL2hPlek7Ivzs1+gt4tt7fdD2gATlqLXJV7mQ==",
+      "publishedAt": "2026-09-27T22:10:29.394Z",
+      "riskFlags": [
+        "no-provenance",
+        "new-package"
+      ]
+    },
+    {
       "id": "npm:dsh-server-deck",
       "name": "dsh-server-deck",
       "packageName": "dsh-server-deck",
@@ -24210,7 +24165,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 176,
+      "downloads": 376,
       "integrity": "sha512-S7hj9xzinsmDevY5avXcPvKJqwO4KZoDKdItjGHyVGvKU4SZveJhK7VikoTyt3BRBqrFTxxw/2xponXu7buW/Q==",
       "publishedAt": "2026-09-28T05:10:44.928Z",
       "riskFlags": [
@@ -24475,6 +24430,25 @@
       ]
     },
     {
+      "id": "npm:dsh-skill-trace",
+      "name": "dsh-skill-trace",
+      "packageName": "dsh-skill-trace",
+      "version": "0.10.0",
+      "description": "DSH Skill 智能实验室（DSH Skill Intelligence）：探索优秀 Agent Skill 的结构与方法，将成熟 AI 工作流转化为个人能力和企业业务能力。",
+      "category": "agent",
+      "author": "GitHub Actions",
+      "homepage": "https://github.com/PolinniZhong/dsh-skill-intelligence#readme",
+      "source": "npm",
+      "installable": true,
+      "license": "MIT",
+      "downloads": 1108,
+      "integrity": "sha512-8gWk8R/FzMoxoHKBMsAHarxWN/cfU56R06H2ezbqHNv8V2oLwvmthxrYBhprQQMmBeP0vplPbeRXKiBpmRzOlg==",
+      "publishedAt": "2026-10-04T23:49:15.652Z",
+      "riskFlags": [
+        "new-package"
+      ]
+    },
+    {
       "id": "npm:dsh-skillbox",
       "name": "dsh-skillbox",
       "packageName": "dsh-skillbox",
@@ -24594,19 +24568,18 @@
       "id": "npm:dsh-slack",
       "name": "dsh-slack",
       "packageName": "dsh-slack",
-      "version": "0.3.3",
-      "description": "DSH Slack 插件：通知与桥接，Socket Mode 双向消息（收件箱 + 线程回复）。",
+      "version": "0.3.4",
+      "description": "连接 Slack，发送通知并处理 Socket Mode 收件箱与线程回复。",
       "category": "integration",
       "author": "stardustlc",
       "homepage": "https://github.com/STARDUSTLC666/dsh-slack#readme",
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 440,
-      "integrity": "sha512-7hg82cY8xVYwSZ1uT80qGj+I5MTj7fk2DVFvj40mDk/IruvBO41rUi/aPmjtv2E+Lu4mXq3Ew6GYphwhaGBRwQ==",
-      "publishedAt": "2026-10-01T03:04:02.311Z",
+      "downloads": 909,
+      "integrity": "sha512-RdTddhsCQssGzuI9vyrqFbsqlQDKJ5ht+pt7GIakVA+uek+939t4L16fvROQ46km2QqcCYlOwbmSBfYX2Sbo+g==",
+      "publishedAt": "2026-10-05T04:16:32.681Z",
       "riskFlags": [
-        "no-provenance",
         "new-package"
       ]
     },
@@ -24653,7 +24626,7 @@
       "id": "npm:dsh-smooth-stream",
       "name": "dsh-smooth-stream",
       "packageName": "dsh-smooth-stream",
-      "version": "0.6.1",
+      "version": "0.7.0",
       "description": "Fluid streaming rendering and silky scrolling for DeepSeek Harness replies, including Markdown, code blocks, tables, and tool results.",
       "category": "ui",
       "author": "dzlin",
@@ -24661,9 +24634,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 1486,
-      "integrity": "sha512-gikVy5Wo5O7wUMOnd6cLCP/NA1fy+XOrhAiWoucjTDoLrfwu/88mK6jltv7Uv1jD4hf68j80oUArS9KnPQztCw==",
-      "publishedAt": "2026-09-11T04:51:01.189Z",
+      "downloads": 1248,
+      "integrity": "sha512-Pp64336yIU3TlWYmoyP47zWmUCyOuwFM4WoO0j9u8jBRe6PT92E2vCp2yp3OYdlmEqvA6fnz3Jy1KAK+VYlllA==",
+      "publishedAt": "2026-10-05T03:34:22.816Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -24684,6 +24657,26 @@
       "downloads": 271,
       "integrity": "sha512-Yj78V/L//pCNgtiCJdUcTY3U1lEVJ9XAuQzf4cePaYHU0NAdiQfyCc0/uev3mSfAaabRlPxYDL+C1GtFI4Tg1w==",
       "publishedAt": "2026-09-13T19:25:59.466Z",
+      "riskFlags": [
+        "no-provenance",
+        "new-package"
+      ]
+    },
+    {
+      "id": "npm:dsh-sonarqube",
+      "name": "dsh-sonarqube",
+      "packageName": "dsh-sonarqube",
+      "version": "0.1.1",
+      "description": "Read-only SonarQube Community Build tools for DeepSeek Harness.",
+      "category": "tool",
+      "author": "maxmilian",
+      "homepage": "https://github.com/maxmilian/dsh-sonarqube#readme",
+      "source": "npm",
+      "installable": true,
+      "license": "MIT",
+      "downloads": 502,
+      "integrity": "sha512-9s22WUkGzyFlFMQaV3OlsOfc2weARZ6BTjimTO8ydsFwjpK9b08NqMrKhlkThyNqMNBUKxqAlC3dd9Qiv9HsVg==",
+      "publishedAt": "2026-09-27T22:09:37.905Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -24752,19 +24745,18 @@
       "id": "npm:dsh-sql",
       "name": "dsh-sql",
       "packageName": "dsh-sql",
-      "version": "0.4.4",
-      "description": "DSH 数据库插件：SQLite / MySQL / PostgreSQL 查询与管理，只读模式、写操作审批与流式行数钳制。",
+      "version": "0.4.5",
+      "description": "连接 SQLite、MySQL 或 PostgreSQL，查询数据并检查数据库结构。",
       "category": "other",
       "author": "stardustlc",
       "homepage": "https://github.com/STARDUSTLC666/dsh-sql#readme",
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 309,
-      "integrity": "sha512-MavRCzZNBkZdQuyy9nIDZWXaGjfxjmgvW6QPjbkcEYpQ6xy/Zlky20/ISnnVoIwmhWCb/PJJFt8o6E4I5xocXw==",
-      "publishedAt": "2026-09-28T16:11:24.392Z",
+      "downloads": 909,
+      "integrity": "sha512-SiTkzDOg/QmhUW81oT9nJIOxPIiL3dWyHYNBdmWZd8/6FHl+kfKe0BgL00ANW6Al5pNH/Zrkc1iWfRFpJpwrCg==",
+      "publishedAt": "2026-10-05T04:07:00.802Z",
       "riskFlags": [
-        "no-provenance",
         "new-package"
       ]
     },
@@ -25906,6 +25898,26 @@
       ]
     },
     {
+      "id": "npm:dsh-token-monitor",
+      "name": "dsh-token-monitor",
+      "packageName": "dsh-token-monitor",
+      "version": "1.0.11",
+      "description": "DSH Web 会话头部大模型余量监控插件：当前模型额度徽标 + 全部提供方详情弹层 + 用量统计页签",
+      "category": "model",
+      "author": "licyer",
+      "homepage": "https://github.com/licyer/dsh-token-monitor#readme",
+      "source": "npm",
+      "installable": true,
+      "license": "MIT",
+      "downloads": 655,
+      "integrity": "sha512-h4bjOjU+XdHZ93WcjHO9qQ8PMXUiIEUV7UgIcPenz3LbtOoC1DhhYtBpQyZJYTBYv19qkGvh6SgBDJ3sdNK3eQ==",
+      "publishedAt": "2026-09-28T02:19:20.020Z",
+      "riskFlags": [
+        "no-provenance",
+        "new-package"
+      ]
+    },
+    {
       "id": "npm:dsh-token-pet",
       "name": "dsh-token-pet",
       "packageName": "dsh-token-pet",
@@ -26084,7 +26096,7 @@
       "id": "npm:dsh-tool-guardian",
       "name": "dsh-tool-guardian",
       "packageName": "dsh-tool-guardian",
-      "version": "0.4.0-beta.2",
+      "version": "0.5.0-beta.1",
       "description": "Tool Guardian as a native DeepSeek Harness (DSH) bundle: keeps tool definitions out of the context window by fronting your MCP servers behind a small native router. A bridge to the Python tool-guardian, not a rewrite.",
       "category": "model",
       "author": "LuminariSoftwares",
@@ -26092,9 +26104,9 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 862,
-      "integrity": "sha512-UdABM/+h+UN/ZhZfgk2Mrc85i4MOIILFmDTvedNBLjYV31yAfbwnhkVYCbLfl1IUpz/ndSkbtiJrjwPJTSMO7Q==",
-      "publishedAt": "2026-10-01T23:46:00.168Z",
+      "downloads": 662,
+      "integrity": "sha512-J4AGq2eo8nm6BAZiYAYAgkAzN77pzhaW5KHJt6jSDMfYAUR3C2d3AhtpFzc5P+W73kYNmfX5dJxuv48bgleUIQ==",
+      "publishedAt": "2026-10-04T22:11:25.039Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -26250,7 +26262,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 125,
+      "downloads": 290,
       "integrity": "sha512-wNlXtUmobOd630dQ/D0BxMEGq3npV5zjwVCdNBH//Vx8Y10gUOqMaR7r7xnw0Q4PH1nvFSl3W5iL1/1tUCiDag==",
       "publishedAt": "2026-09-14T00:54:05.039Z",
       "riskFlags": [
@@ -26430,25 +26442,6 @@
       "publishedAt": "2026-09-30T14:04:14.232Z",
       "riskFlags": [
         "new-package"
-      ]
-    },
-    {
-      "id": "npm:dsh-ui-enhancer",
-      "name": "dsh-ui-enhancer",
-      "packageName": "dsh-ui-enhancer",
-      "version": "0.2.0",
-      "description": "A desktop-style workspace, wallpaper, pet, and file-reference UI for DeepSeek Harness",
-      "category": "ui",
-      "author": "AlexYin-Tongji",
-      "homepage": "https://github.com/AlexYin-Tongji/dsh-ui-enhancer#readme",
-      "source": "npm",
-      "installable": true,
-      "license": "MIT",
-      "downloads": 308,
-      "integrity": "sha512-fKABrDkQtWXYSEyhb2EWNshf8z8BBRVZlS4x2KAaFVoph9M0NRo3u45fvtHtXPy/PZEGKi3nvnAWNEYI1Zfltg==",
-      "publishedAt": "2026-08-23T07:05:40.688Z",
-      "riskFlags": [
-        "no-provenance"
       ]
     },
     {
@@ -27021,19 +27014,18 @@
       "id": "npm:dsh-voice",
       "name": "dsh-voice",
       "packageName": "dsh-voice",
-      "version": "0.3.5",
-      "description": "DSH 语音插件：edge-tts 微软神经语音合成（免费、无需密钥）+ OpenAI 兼容语音转文字，支持插件级代理。",
-      "category": "model",
+      "version": "0.3.6",
+      "description": "把文字生成语音，或通过兼容接口把音频转为文字。",
+      "category": "other",
       "author": "stardustlc",
       "homepage": "https://github.com/STARDUSTLC666/dsh-voice#readme",
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 436,
-      "integrity": "sha512-BX5gfou1FttkMeegyDPKwSHQmvlfxiDqQuTr/haS1j0m5AtcPTIR9GffHfuwjkxVIEPU0dHTw1fcM33iEZEs3g==",
-      "publishedAt": "2026-09-28T16:13:19.128Z",
+      "downloads": 996,
+      "integrity": "sha512-wl4m+QzsX1nhp0iko83rNrAlhwJc01gvU814V8zvYIbw7rro6QUU+QlwErvTGQRFPobxAcJz5SDAbRH0w9x8IA==",
+      "publishedAt": "2026-10-05T04:14:01.801Z",
       "riskFlags": [
-        "no-provenance",
         "new-package"
       ]
     },
@@ -28294,7 +28286,7 @@
       "id": "npm:gacha-calendar-core",
       "name": "gacha-calendar-core",
       "packageName": "gacha-calendar-core",
-      "version": "0.11.1",
+      "version": "0.11.2",
       "description": "二游活动/卡池排期抓取核心：11 款游戏的来源注册表 + 解析器 + 刷新编排 + 缓存降级。零依赖、零宿主环境依赖，任何 JS 运行时（浏览器扩展 background / Tauri / JavaScriptCore / ArkTS 嵌入式引擎）都能跑。",
       "category": "other",
       "author": "eastmorning",
@@ -28302,9 +28294,9 @@
       "source": "npm",
       "installable": false,
       "license": "MIT",
-      "downloads": 1525,
-      "integrity": "sha512-6UaVf7dSMpdvmUfM8f1RhQq3P4FAGniV6rIE3Ot6n+oNOmT9tTi7e12DD5ipNuUCagRYgME40De3QLlJXvEA3g==",
-      "publishedAt": "2026-10-04T09:15:40.332Z",
+      "downloads": 1348,
+      "integrity": "sha512-2Yju4Zyi1loj//ChcIOabJK0FCp/wuLovnOqJQ2raxAzFYclWr9zXrvaGt0VkUoyM0ATIkDeqmQwk7/N2DU21g==",
+      "publishedAt": "2026-10-05T06:05:41.231Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -28463,26 +28455,6 @@
       "downloads": 762,
       "integrity": "sha512-TlrNFCsGm1tWd5g7r3/Eu7p2ITVrgSYwktW90Mt3dhyqWuCkahdf5eKIgXOtHp+3huyKTw0r5L9wvWb0kcMlbg==",
       "publishedAt": "2026-09-23T08:13:28.856Z",
-      "riskFlags": [
-        "no-provenance",
-        "new-package"
-      ]
-    },
-    {
-      "id": "npm:koma-miko-dsh",
-      "name": "koma-miko-dsh",
-      "packageName": "koma-miko-dsh",
-      "version": "0.1.0-alpha.11",
-      "description": "DeepSeek Harness adapter for Koma Miko Agent Specs.",
-      "category": "agent",
-      "author": "Shuang Wu",
-      "homepage": "https://github.com/swnotmetal/Project-Koma#readme",
-      "source": "npm",
-      "installable": true,
-      "license": "MIT",
-      "downloads": 195,
-      "integrity": "sha512-MFr9TkGHcER0iPzgGcVbBWqeeYPfeSSuc+el/jJgzSLBwUEy3gIl44vOwAApg1k27jpkg3KWu8S8g51AjLYhbQ==",
-      "publishedAt": "2026-09-27T23:17:21.969Z",
       "riskFlags": [
         "no-provenance",
         "new-package"
@@ -28679,7 +28651,7 @@
       "source": "npm",
       "installable": true,
       "license": "MIT",
-      "downloads": 132,
+      "downloads": 249,
       "integrity": "sha512-IUhhnIB4aIuw+If1iBQqiKGmpEUma5XYi1Y+zMQb1PbL+fz6633bB61w7xm6idGAMHWdgdmkB7uf9D6f+dhS5Q==",
       "publishedAt": "2026-09-14T03:24:09.698Z",
       "riskFlags": [
@@ -28711,7 +28683,7 @@
       "id": "npm:newmark2dsh",
       "name": "newmark2dsh",
       "packageName": "newmark2dsh",
-      "version": "0.2.14",
+      "version": "0.2.15",
       "description": "Newmark Core for DeepSeek Harness：一个插件包携带 Newmark 的 MemoryLab、ComputerUse 与 Dev 智能体预设，共用 ~/.Newmark 用户库，各组件可在插件页独立启用。",
       "category": "tool",
       "author": "Newmark AI",
@@ -28719,10 +28691,30 @@
       "source": "npm",
       "installable": true,
       "license": "SEE LICENSE IN LICENSE",
-      "downloads": 1448,
-      "integrity": "sha512-+DmKR2afA2RLY9l1UaWrjRD+q2dMrFb26V+xc8NUhlzlcj2sXv/ca0LUfEBQKVsp0Nb5A7z4womapPzx6Ft/Ow==",
-      "publishedAt": "2026-10-02T07:12:47.109Z",
+      "downloads": 3382,
+      "integrity": "sha512-dvMsndHrclqUycBPPcYSUUL5kqtd9izHHBqVoeOkUA8CG8mahcatPVH4sLaCk+qxJ1pVzQPYPEf9jpcpWUI9EA==",
+      "publishedAt": "2026-10-05T02:55:54.388Z",
       "riskFlags": [
+        "new-package"
+      ]
+    },
+    {
+      "id": "npm:novelcraft-dsh",
+      "name": "novelcraft-dsh",
+      "packageName": "novelcraft-dsh",
+      "version": "0.1.3",
+      "description": "NovelCraft autonomous writing assistant for DeepSeek Harness",
+      "category": "other",
+      "author": "nidielaila2026",
+      "homepage": "https://github.com/FengHuoLinShan/novelAssist-dsh#readme",
+      "source": "npm",
+      "installable": true,
+      "license": "MIT",
+      "downloads": 324,
+      "integrity": "sha512-GOgctzY3bv42MhKe9UUlme2QUYh/KGlk0jEGEM7BEVjBQM8jXjQMPkPraVdN/+KxLWhHXTjAQU8CoLRzAhUSGw==",
+      "publishedAt": "2026-09-14T02:29:42.472Z",
+      "riskFlags": [
+        "no-provenance",
         "new-package"
       ]
     },
